@@ -23,11 +23,11 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Suwash Silwal"
-  pronouns         : "he/him"  
-  bio              : "Ph.D. candidate, MTU"
+  pronouns         : "He/Him"  
+  bio              : "Ph.D. Candidate"
   location         : "Houghton, MI, USA"
   employer         : "Michigan Technological University"
-  uri              : "ssilwal050/ssilwal050.github.io"
+  uri              : "https://ssilwal050.github.io"
   email            : "suwashs@mtu.edu" 
 
   # Academic websites
