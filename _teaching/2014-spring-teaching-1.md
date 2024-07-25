@@ -2,7 +2,7 @@
 title: "Graduate Teaching Instructor"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2022 - spring-.md
+permalink: /teaching/2014-spring-teaching-1.md
 venue: "University 1, Department"
 date: 2014-01-01
 location: "Houghton, Michigan, US"
