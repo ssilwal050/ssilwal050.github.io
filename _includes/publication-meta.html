@@ -1,0 +1,29 @@
+{% comment %}
+  Publication metadata display
+  Handles badges, venue, and date formatting for publications
+{% endcomment %}
+
+{% if post.venue contains 'ICSME' %}
+  <span class="publication-badge icsme">ICSME</span>
+  Published in <i>{{ post.venue }}</i>
+{% elsif post.venue contains 'TOSEM' %}
+  <span class="publication-badge tosem">TOSEM</span>
+  Published in <i>{{ post.venue }}</i>
+{% elsif post.venue contains 'ICSE' %}
+  <span class="publication-badge icse">ICSE</span>
+  Published in <i>{{ post.venue }}</i>
+{% elsif post.venue contains 'Major Revision' %}
+  <span class="publication-badge" style="background-color: #f89406;">Under Review</span>
+  <i>Under Review (Major Revision)</i>
+{% elsif post.venue %}
+  <span class="publication-badge">{{ post.venue }}</span>
+  Published in <i>{{ post.venue }}</i>
+{% endif %}
+
+{% if post.date %}
+  {% assign pub_date = post.date | date: "%Y" %}
+  {% if pub_date != "1900" %}
+    , {{ pub_date }}
+  {% endif %}
+{% endif %}
+
