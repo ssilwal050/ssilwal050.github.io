@@ -13,7 +13,7 @@ name                     : &name "Suwash Silwal"
 description              : &description "PhD Candidate in Statistics atMichigan Technological University | Research in Deep Learning for Software Engineering, Interpretable AI, and Large Language Models"
 url                      : https://ssilwal050.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "dkhati98.github.io"
+repository               : "ssilwal050.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -95,7 +95,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "dkhati98"
+  github           : "ssilwal050"
   google_plus      :
   keybase          :
   instagram        :

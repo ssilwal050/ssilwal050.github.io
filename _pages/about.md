@@ -85,7 +85,7 @@ If you're interested in collaborating or have internship opportunities, please f
   <li><a href="/cv/">📄 Curriculum Vitae</a></li>
   <li><a href="/publications/">📚 Publications</a></li>
   <li><a href="/teaching/">🎓 Teaching</a></li>
-  <li><a href="https://github.com/dkhati98">💻 GitHub</a></li>
+  <li><a href="https://github.com/ssilwal050">💻 GitHub</a></li>
   <li><a href="https://scholar.google.com/citations?user=BsC5DE0AAAAJ&hl=en">📖 Google Scholar</a></li>
 </ul>
 
