@@ -1,11 +1,90 @@
 ---
 permalink: /
-title: "Suwash Silwal"
+title: 
 excerpt: "PhD Candidate in Statistics"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+---
+
+<div class="quote-hero">
+  <div class="quote-marks">&ldquo;</div>
+  <div class="quote-body">
+    <p class="quote-text">Data is like garbage. You'd better know what you're going to do with it before you collect it.</p>
+    <div class="quote-divider"></div>
+    <div class="quote-attribution">
+      <span class="quote-author">Mark Twain</span>
+      <span class="quote-meta">1835–1910 &nbsp;·&nbsp; American writer &amp; humorist &nbsp;·&nbsp; <em>Adventures of Huckleberry Finn</em></span>
+    </div>
+  </div>
+</div>
+
+<style>
+.quote-hero {
+  position: relative;
+  margin: 0.5em 0 2.2em 0;
+  padding: 2.2em 2.4em 1.8em 2.4em;
+  background: linear-gradient(135deg, #0d2a22 0%, #0d1f2e 100%);
+  border-radius: 6px;
+  border-left: 5px solid #1a7a5e;
+  overflow: hidden;
+}
+.quote-hero::after {
+  content: "";
+  position: absolute;
+  top: -30px; right: -30px;
+  width: 160px; height: 160px;
+  border-radius: 50%;
+  background: rgba(26,122,94,0.08);
+  pointer-events: none;
+}
+.quote-marks {
+  font-family: 'STIX Two Text', Georgia, serif;
+  font-size: 6rem;
+  line-height: 0.6;
+  color: #1a7a5e;
+  margin-bottom: 0.3em;
+  display: block;
+  opacity: 0.9;
+}
+.quote-text {
+  font-family: 'STIX Two Text', Georgia, serif;
+  font-size: 1.25em;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #e0f4ee;
+  margin: 0 0 1.2em 0;
+  letter-spacing: 0.01em;
+}
+.quote-divider {
+  width: 48px;
+  height: 2px;
+  background: #1a7a5e;
+  margin-bottom: 1em;
+}
+.quote-attribution {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.quote-author {
+  font-family: 'Outfit', -apple-system, sans-serif;
+  font-weight: 600;
+  font-size: 0.95em;
+  color: #5dd4b0;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.quote-meta {
+  font-family: 'Outfit', -apple-system, sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #7ab8a8;
+}
+</style>
+
 ---
 
 ## About Me
