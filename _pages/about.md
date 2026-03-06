@@ -8,80 +8,41 @@ redirect_from:
   - /about.html
 ---
 
-<div class="quote-hero">
-  <div class="quote-marks">&ldquo;</div>
-  <div class="quote-body">
-    <p class="quote-text">Data is like garbage. You'd better know what you're going to do with it before you collect it.</p>
-    <div class="quote-divider"></div>
-    <div class="quote-attribution">
-      <span class="quote-author">Mark Twain</span>
-      <span class="quote-meta">1835–1910 &nbsp;·&nbsp; American writer &amp; humorist &nbsp;·&nbsp; <em>Adventures of Huckleberry Finn</em></span>
-    </div>
-  </div>
+<div class="opening-quote">
+  <p class="opening-quote__text">"Data is like garbage. You'd better know what you're going to do with it before you collect it."</p>
+  <p class="opening-quote__author">— Mark Twain</p>
+  <p class="opening-quote__bio">Samuel Langhorne Clemens (1835–1910), known by his pen name Mark Twain, was an American writer and humorist. Author of <em>Adventures of Huckleberry Finn</em> and <em>The Adventures of Tom Sawyer</em>, his wit and observations on human nature remain as sharp today as they were in the 19th century.</p>
 </div>
 
 <style>
-.quote-hero {
-  position: relative;
-  margin: 0.5em 0 2.2em 0;
-  padding: 2.2em 2.4em 1.8em 2.4em;
-  background: linear-gradient(135deg, #0d2a22 0%, #0d1f2e 100%);
-  border-radius: 6px;
-  border-left: 5px solid #1a7a5e;
-  overflow: hidden;
+.opening-quote {
+  margin: 0.5em 0 2em;
+  padding: 1.4em 1.6em;
+  border-left: 3px solid #1a7a5e;
 }
-.quote-hero::after {
-  content: "";
-  position: absolute;
-  top: -30px; right: -30px;
-  width: 160px; height: 160px;
-  border-radius: 50%;
-  background: rgba(26,122,94,0.08);
-  pointer-events: none;
-}
-.quote-marks {
+.opening-quote__text {
   font-family: 'STIX Two Text', Georgia, serif;
-  font-size: 6rem;
-  line-height: 0.6;
-  color: #1a7a5e;
-  margin-bottom: 0.3em;
-  display: block;
-  opacity: 0.9;
-}
-.quote-text {
-  font-family: 'STIX Two Text', Georgia, serif;
-  font-size: 1.25em;
   font-style: italic;
-  font-weight: 400;
+  font-size: 1.15em;
   line-height: 1.7;
-  color: #e0f4ee;
-  margin: 0 0 1.2em 0;
-  letter-spacing: 0.01em;
+  color: #111a17;
+  margin-bottom: 0.5em;
 }
-.quote-divider {
-  width: 48px;
-  height: 2px;
-  background: #1a7a5e;
-  margin-bottom: 1em;
-}
-.quote-attribution {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-.quote-author {
-  font-family: 'Outfit', -apple-system, sans-serif;
+.opening-quote__author {
+  font-family: 'Outfit', sans-serif;
   font-weight: 600;
-  font-size: 0.95em;
-  color: #5dd4b0;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+  font-size: 0.9em;
+  color: #1a7a5e;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.5em;
 }
-.quote-meta {
-  font-family: 'Outfit', -apple-system, sans-serif;
-  font-weight: 300;
+.opening-quote__bio {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
   font-size: 0.8em;
-  color: #7ab8a8;
+  color: #5a7a72;
+  line-height: 1.65;
+  margin: 0;
 }
 </style>
 
