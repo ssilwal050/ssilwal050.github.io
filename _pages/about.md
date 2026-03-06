@@ -59,6 +59,41 @@ redirect_from:
 .quick-links {
   line-height: 1.9;
 }
+.quick-links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 8px;
+  margin: 16px 0;
+}
+.quick-link-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 8px 10px;
+  border: 1.5px solid #c8e6c9;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #1b4d2e;
+  background: #f1f8f2;
+  transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s, background 0.2s;
+}
+.quick-link-card:hover {
+  box-shadow: 0 5px 16px rgba(58, 125, 68, 0.15);
+  transform: translateY(-3px);
+  border-color: #3a7d44;
+  background: #e6f4e8;
+}
+.ql-icon {
+  font-size: 1.3rem;
+  margin-bottom: 6px;
+  line-height: 1;
+}
+.ql-label {
+  font-size: 0.72rem;
+  text-align: center;
+  font-weight: 600;
+  color: #2e6b3e;
+}
 </style>
 
 ## About Me
