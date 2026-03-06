@@ -13,7 +13,7 @@ redirect_from:
 
 * **Ph.D. in Statistics**, Michigan Technological University, Houghton, MI  
   *Expected: 2026*  
-  *Advisor: [Dr. Denys Poshyvanyk](https://www.cs.wm.edu/~denys/)*  
+  *Advisor: [Dr. Xiao Zhang](https://www.cs.wm.edu/~denys/)*  
   *Research Focus: Deep Learning for Software Engineering, Interpretable AI, Large Language Models*
 
 * **B.S. in Computer Science** (Minor in Mathematics), Troy University, Troy, AL  
