@@ -69,7 +69,7 @@ social:
   type                   : Person # Person or Organization (defaults to Person)
   name                   : "Suwash Silwal" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://www.linkedin.com/in/ssilwal050"
+    - "https://www.linkedin.com/in/ssilwal050/"
     - "https://github.com/ssilwal050"
     - "https://scholar.google.com/citations?user=RZAbmdMAAAAJ"
     - "https://orcid.org/0009-0004-6208-4374"
