@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Suwash Silwal"
-excerpt: "PhD Candidate in Computer Science | Deep Learning for Software Engineering"
+excerpt: "PhD Candidate in Statistics"
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,23 +10,21 @@ redirect_from:
 
 ## About Me
 suwash
-I am a 5th year PhD candidate in Mathematics and Statistics department at Michigan Technological University, Mi, USA. I am working under the supervision of [Dr. Denys Poshyvanyk](https://www.cs.wm.edu/~denys/). My research focuses on applying Deep Learning and Large Language Models (LLMs) to Software Engineering tasks, with a particular emphasis on making these models more **trustworthy, interpretable, and reliable** for real-world software development.
+I am a 5th year PhD candidate in Statistics department at Michigan Technological University, Mi, USA. I am working under the supervision of [Dr. Xiao Zhang](https://www.mtu.edu/math/department/faculty-staff/faculty/x-zhang/). My research focuses on applying Bayesian Moddeling for discrete models with a particular emphasis on multivaratie discrete models with **missing values**.
 
 ## Research Interests
 
 My research interests span several key areas:
 
-- **Interpretable AI for Code**: Developing methods to understand and explain how LLMs generate and reason about source code
-- **Trustworthy Machine Learning**: Building techniques to assess and improve the reliability of AI systems in software engineering contexts
-- **Causal Inference in Software Engineering**: Applying causal analysis to understand the factors that influence model performance and reduce confounding bias
-- **Syntax-Aware Code Generation**: Leveraging Abstract Syntax Trees (ASTs) and programming language semantics to improve code generation quality
-- **Prompt Engineering and Evaluation**: Creating better benchmarks and evaluation strategies for LLMs applied to software tasks
+- **Missing Data Imputation**: Developing a bayesain methods to impute the missing values. 
+- **Multivariate Statistics**: Working on Mutivariate regression model and implement in real data applcation
+- **MI**: Leveraging Abstract Syntax Trees (ASTs) and programming language semantics to improve code generation quality
 
 ## Current Work
 
-Currently, I am working on developing interpretability methods for Large Language Models when applied to code-related tasks. My recent work includes:
+Currently, I am working on developing a MCMC methods for binary/ordinal/nomial measures with missing values using multinomial probit model(MNP). My recent work includes:
 
-- **Mapping the Terrain** (TOSEM)
+- **MNP model for univariate nomial case** (Under Review)
 - **ASTrust** (Under Review)
 - **Global Code-Based Explanations** (Under Review)
 - **Galeras** (ICSME 2023)
