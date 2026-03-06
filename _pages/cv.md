@@ -11,7 +11,7 @@ redirect_from:
 
 ## Education
 
-* **Ph.D. in Computer Science**, College of William & Mary, Williamsburg, VA  
+* **Ph.D. in Statistics**, Michigan Technological University, Houghton, MI  
   *Expected: 2026*  
   *Advisor: [Dr. Denys Poshyvanyk](https://www.cs.wm.edu/~denys/)*  
   *Research Focus: Deep Learning for Software Engineering, Interpretable AI, Large Language Models*
