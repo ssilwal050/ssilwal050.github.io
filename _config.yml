@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Suwash Silwal"
 title_separator          : "-"
 name                     : &name "Suwash Silwal"
-description              : &description "PhD Candidate in Statistics at Michigan Technological University | Research in Deep Learning for Software Engineering, Interpretable AI, and Large Language Models"
+description              : &description "PhD Candidate in Statistics at Michigan Technological University | Bayesian Modeling | MCMC Methods | Missing Data Imputation"
 url                      : https://ssilwal050.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ssilwal050.github.io"
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -66,9 +66,13 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Person # Person or Organization (defaults to Person)
+  name                   : "Suwash Silwal" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://www.linkedin.com/in/suwash"
+    - "https://github.com/ssilwal050"
+    - "https://scholar.google.com/citations?user=BsC5DE0AAAAJ&hl=en"
+    - "https://orcid.org/0009-0008-4489-7733"
 
 
 # Analytics
@@ -82,11 +86,11 @@ analytics:
 author:
   name             : "Suwash Silwal"
   avatar           : "prof_pic.jpg"
-  bio              : "PhD Candidate in PhD in Statistics| Bayesain Modeling"
+  bio              : "PhD Candidate in Statistics| Bayesain Modeling"
   location         : "Houghton, MI"
   employer         :
-  googlescholar    : "https://scholar.google.com/citations?user=BsC5DE0AAAAJ&hl=en"
-  email            :
+  googlescholar    : "https://scholar.google.com/citations?user=RZAbmdMAAAAJ&hl=en"
+  email            : "suwashs@mtu.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -101,14 +105,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "https://orcid.org/0009-0008-4489-7733"
+  linkedin         : "suwash"         # → links to linkedin.com/in/suwash
+  orcid            : "https://orcid.org/0009-0004-6208-4374"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "#"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
@@ -254,7 +258,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Detroit # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
