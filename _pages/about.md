@@ -23,7 +23,7 @@ redirect_from:
 .opening-quote__text {
   font-family: 'STIX Two Text', Georgia, serif;
   font-style: italic;
-  font-size: 1.15em;
+  font-size: 1.0em;
   line-height: 1.7;
   color: #111a17;
   margin-bottom: 0.5em;
@@ -31,7 +31,7 @@ redirect_from:
 .opening-quote__author {
   font-family: 'Outfit', sans-serif;
   font-weight: 600;
-  font-size: 0.9em;
+  font-size: 0.5em;
   color: #1a7a5e;
   letter-spacing: 0.03em;
   margin-bottom: 0.5em;
