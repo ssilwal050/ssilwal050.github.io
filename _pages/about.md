@@ -10,7 +10,7 @@ redirect_from:
 
 ## About Me
 
-I am a 5th PhD candidate in Mathematics and Statistics department at Michigan Technological University, Mi, USA. I am working under the supervision of [Dr. Denys Poshyvanyk](https://www.cs.wm.edu/~denys/). My research focuses on applying Deep Learning and Large Language Models (LLMs) to Software Engineering tasks, with a particular emphasis on making these models more **trustworthy, interpretable, and reliable** for real-world software development.
+I am a 5th year PhD candidate in Mathematics and Statistics department at Michigan Technological University, Mi, USA. I am working under the supervision of [Dr. Denys Poshyvanyk](https://www.cs.wm.edu/~denys/). My research focuses on applying Deep Learning and Large Language Models (LLMs) to Software Engineering tasks, with a particular emphasis on making these models more **trustworthy, interpretable, and reliable** for real-world software development.
 
 ## Research Interests
 

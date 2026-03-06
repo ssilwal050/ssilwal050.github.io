@@ -29,13 +29,13 @@ redirect_from:
 
 ## Work Experience
 
-* **Graduate Research Assistant**, College of William & Mary, Williamsburg, VA  
+* **Graduate Research Assistant**, Michigan Technological University, Houghton, MI  
   *2021 - Present*  
   * Conducting research on interpretable and trustworthy Large Language Models for software engineering tasks
   * Developing novel methods for syntax-grounded explanations of code generation models
   * Working on causal inference frameworks for evaluating LLM performance in software engineering contexts
 
-* **Teaching Assistant**, College of William & Mary, Williamsburg, VA  
+* **Teaching Assistant**, Michigan Technological University, Houghton, MI  
   *2021 - 2023*  
   * CSCI 423, Finite Automata (Fall 2021)
   * CSCI 304, Computer Organization (Spring 2022)
