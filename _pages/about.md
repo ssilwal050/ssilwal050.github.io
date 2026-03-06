@@ -14,17 +14,6 @@ I am a PhD candidate in the Department of Mathematical Sciences at **Michigan Te
 
 ---
 
-## Education
-
-| Degree | Institution | Year |
-|--------|-------------|------|
-| **Ph.D. in Statistics** | Michigan Technological University, Houghton, MI *(Advisor: Prof. Xiao Zhang)* | Expected July 2026 |
-| **M.S. in Statistics** | Michigan Technological University, Houghton, MI | December 2023 |
-| **M.S. in Statistics** | Tribhuvan University, Kathmandu, Nepal *(Supervisor: Prof. Pravat Uprety)* | December 2016 |
-| **B.S. in Statistics** | Tribhuvan University, Kathmandu, Nepal | July 2013 |
-
----
-
 ## Research Interests
 
 - **Bayesian Computation for Latent Variable Models**: Developing efficient MCMC samplers for discrete outcome models, with a focus on parameter-expanded data augmentation strategies.
