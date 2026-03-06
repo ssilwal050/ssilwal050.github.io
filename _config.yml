@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Suwash Silwal"
 title_separator          : "-"
 name                     : &name "Suwash Silwal"
-description              : &description "PhD Candidate in Computer Science at William & Mary | Research in Deep Learning for Software Engineering, Interpretable AI, and Large Language Models"
+description              : &description "PhD Candidate in Statistics atMichigan Technological University | Research in Deep Learning for Software Engineering, Interpretable AI, and Large Language Models"
 url                      : https://ssilwal050.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "dkhati98.github.io"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Suwash Silwal"
-  avatar           : "img272.jpg"
+  avatar           : "prof_pic.jpg"
   bio              : "PhD Candidate in Computer Science | Deep Learning for Software Engineering | Interpretable AI & Large Language Models"
   location         : "Houghton, MI"
   employer         :
