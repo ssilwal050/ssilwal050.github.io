@@ -57,18 +57,18 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-$body-color                 : #f0f7f5;
-$background-color           : #f0f7f5;
-$code-background-color      : #e4f4ef;
+$body-color                 : #f0f7f4;   /* green tint background */
+$background-color           : #f0f7f4;   /* green tint background */
+$code-background-color      : #e2f0e8;   /* slightly deeper green for code blocks */
 $code-background-color-dark : $light-gray;
-$text-color                 : #111a17;  /* near-black — was #0d1f1a, much clearer on green bg */
-$border-color               : #c8dfd8;
+$text-color                 : #0f1410;   /* near-black with slight green undertone */
+$border-color               : #c2d8cc;   /* soft green-grey border */
 
-$primary-color              : #1a7a5e;
-$success-color              : #1a7a5e;
+$primary-color              : #1a4f8a;   /* blue — headings, nav active, blockquote border */
+$success-color              : #1a6e4a;   /* green — success states */
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
-$info-color                 : #1a5c8a;
+$info-color                 : #1a6e4a;   /* green — inline links */
 
 /* brands */
 $behance-color              : #1769FF;
@@ -94,7 +94,7 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
+$link-color                 : $primary-color;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : $primary-color;
