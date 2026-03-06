@@ -24,24 +24,25 @@ redirect_from:
   font-family: 'STIX Two Text', Georgia, serif;
   font-style: italic;
   font-size: 1.0em;
-  line-height: 1.7;
-  color: #111a17;
+  line-height: 1.5;
+  color:rgb(6, 49, 113);
   margin-bottom: 0.5em;
 }
 .opening-quote__author {
   font-family: 'Outfit', sans-serif;
   font-weight: 600;
   font-size: 0.5em;
-  color: #1a7a5e;
+  color:rgb(16, 122, 99);
   letter-spacing: 0.03em;
   margin-bottom: 0.5em;
 }
 .opening-quote__bio {
   font-family: 'Outfit', sans-serif;
+  font-style: italic;
   font-weight: 400;
-  font-size: 0.8em;
-  color: #5a7a72;
-  line-height: 1.65;
+  font-size: 0.3em;
+  color:rgb(94, 133, 123);
+  line-height: 1.0;
   margin: 0;
 }
 </style>
