@@ -177,15 +177,36 @@ For a full list, please see my [Publications page](/publications/).
 
 ## Quick Links
 
-<ul class="quick-links">
-  <li><a href="/cv/">📄 Curriculum Vitae</a></li>
-  <li><a href="/files/Suwash_Silwal_CV.pdf" target="_blank">⬇️ Download CV (PDF)</a></li>
-  <li><a href="/publications/">📚 Publications</a></li>
-  <li><a href="/teaching/">🎓 Teaching</a></li>
-  <li><a href="https://www.linkedin.com/in/suwash">🔗 LinkedIn</a></li>
-  <li><a href="https://github.com/ssilwal050">💻 GitHub</a></li>
-  <li><a href="https://scholar.google.com/citations?user=BsC5DE0AAAAJ&hl=en">📖 Google Scholar</a></li>
-</ul>
+<div class="quick-links-grid">
+  <a href="/cv/" class="quick-link-card">
+    <span class="ql-icon">📄</span>
+    <span class="ql-label">Curriculum Vitae</span>
+  </a>
+  <a href="/files/suwash_CV_updated_1225025.pdf" target="_blank" class="quick-link-card">
+    <span class="ql-icon">⬇️</span>
+    <span class="ql-label">Download CV</span>
+  </a>
+  <a href="/publications/" class="quick-link-card">
+    <span class="ql-icon">📚</span>
+    <span class="ql-label">Publications</span>
+  </a>
+  <a href="/teaching/" class="quick-link-card">
+    <span class="ql-icon">🎓</span>
+    <span class="ql-label">Teaching</span>
+  </a>
+  <a href="https://www.linkedin.com/in/ssilwal050/" class="quick-link-card">
+    <span class="ql-icon">🔗</span>
+    <span class="ql-label">LinkedIn</span>
+  </a>
+  <a href="https://github.com/ssilwal050" class="quick-link-card">
+    <span class="ql-icon">💻</span>
+    <span class="ql-label">GitHub</span>
+  </a>
+  <a href="https://scholar.google.com/citations?user=RZAbmdMAAAAJ" class="quick-link-card">
+    <span class="ql-icon">📖</span>
+    <span class="ql-label">Google Scholar</span>
+  </a>
+</div>
 
 ---
 
