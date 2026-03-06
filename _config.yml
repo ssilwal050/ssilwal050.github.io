@@ -13,7 +13,7 @@ name                     : &name "Suwash Silwal"
 description              : &description "PhD Candidate in Statistics at Michigan Technological University | Bayesian Modeling | MCMC Methods | Missing Data Imputation"
 url                      : https://ssilwal050.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "ssilwal050.github.io"
+repository               : "ssilwal050/ssilwal050.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -71,8 +71,8 @@ social:
   links: # An array of links to social media profiles
     - "https://www.linkedin.com/in/ssilwal050"
     - "https://github.com/ssilwal050"
-    - "https://scholar.google.com/citations?user=BsC5DE0AAAAJ&hl=en"
-    - "https://orcid.org/0009-0008-4489-7733"
+    - "https://scholar.google.com/citations?user=RZAbmdMAAAAJ"
+    - "https://orcid.org/0009-0004-6208-4374"
 
 
 # Analytics
@@ -86,10 +86,10 @@ analytics:
 author:
   name             : "Suwash Silwal"
   avatar           : "prof_pic.jpg"
-  bio              : "PhD Candidate in Statistics| Bayesain Modeling"
+  bio              : "PhD Candidate in Statistics | Bayesian Modeling & MCMC | Missing Data | Michigan Tech"
   location         : "Houghton, MI"
-  employer         :
-  googlescholar    : "https://scholar.google.com/citations?user=RZAbmdMAAAAJ&hl=en"
+  employer         : "Michigan Technological University"
+  googlescholar    : "https://scholar.google.com/citations?user=RZAbmdMAAAAJ"
   email            : "suwashs@mtu.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -190,6 +190,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  posts:                                        
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
 
 
 # Defaults
