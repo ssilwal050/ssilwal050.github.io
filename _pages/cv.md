@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-A PDF version of my full CV is available [here](/files/Suwash_Silwal_CV.pdf).
+A PDF version of my full CV is available [here](/files/suwash_CV_updated_1225025.pdf).
 
 ## Education
 
