@@ -14,7 +14,7 @@ This paper addresses the critical gap in understanding code smells in LLM-genera
 
 Recommended citation: @article{velasco2025causal,
       title={A Causal Perspective on Measuring, Explaining and Mitigating Smells in LLM-Generated Code}, 
-      author={Alejandro Velasco and Daniel Rodriguez-Cardenas and Dipin Khati and David N. Palacio and Luftar Rahman Alif and Denys Poshyvanyk},
+      author={Alejandro Velasco and Daniel Rodriguez-Cardenas and Suwash Silwal and David N. Palacio and Luftar Rahman Alif and Denys Poshyvanyk},
       journal={Proceedings of the International Conference on Software Engineering (ICSE)},
       year={2026},
       url={https://arxiv.org/abs/2511.15817}

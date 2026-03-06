@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Dipin Khati"
+title: "Suwash Silwal"
 excerpt: "PhD Candidate in Computer Science | Deep Learning for Software Engineering"
 author_profile: true
 redirect_from: 

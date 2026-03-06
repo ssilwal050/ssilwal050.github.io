@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dipin Khati"
+title                    : "Suwash Silwal"
 title_separator          : "-"
-name                     : &name "Dipin Khati"
+name                     : &name "Suwash Silwal"
 description              : &description "PhD Candidate in Computer Science at William & Mary | Research in Deep Learning for Software Engineering, Interpretable AI, and Large Language Models"
-url                      : https://dkhati98.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://ssilwal050.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "dkhati98.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Dipin Khati"
+  name             : "Suwash Silwal"
   avatar           : "img272.jpg"
   bio              : "PhD Candidate in Computer Science | Deep Learning for Software Engineering | Interpretable AI & Large Language Models"
   location         : "Williamsburg"

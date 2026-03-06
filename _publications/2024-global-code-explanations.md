@@ -16,7 +16,7 @@ This paper introduces Code Rationales (Code ⭕), a technique with rigorous math
 
 Recommended citation: @article{khati2024explaining,
       title={On Explaining (Large) Language Models for Code Using Global Code-Based Explanations}, 
-      author={Dipin Khati and Daniel Rodriguez-Cardenas and David N. Palacio and Alejandro Velasco and Denys Poshyvanyk},
+      author={Suwash Silwal and Daniel Rodriguez-Cardenas and David N. Palacio and Alejandro Velasco and Denys Poshyvanyk},
       journal={To be announced},
       year={2025}
 }

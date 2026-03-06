@@ -16,7 +16,7 @@ This paper provides a comprehensive survey and perspective on the use of Large L
 
 Recommended citation: @article{khati2024mapping,
       title={Mapping the Terrain: LLMs in Software Engineering Insights and Perspective}, 
-      author={Dipin Khati and Y. Liu and David N. Palacio and Y. Zhang and Denys Poshyvanyk},
+      author={Suwash Silwal and Y. Liu and David N. Palacio and Y. Zhang and Denys Poshyvanyk},
       journal={ACM Transactions on Software Engineering and Methodology (TOSEM)},
       year={2025},
       url={https://dl.acm.org/doi/abs/10.1145/3771282}

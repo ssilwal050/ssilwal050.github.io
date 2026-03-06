@@ -16,7 +16,7 @@ The paper introduces ASTrust, an innovative interpretability method for large la
 
 Recommended citation: @misc{palacio2024trustworthyinterpretablellmscode,
       title={Towards More Trustworthy and Interpretable LLMs for Code through Syntax-Grounded Explanations}, 
-      author={David N. Palacio and Daniel Rodriguez-Cardenas and Alejandro Velasco and Dipin Khati and Kevin Moran and Denys Poshyvanyk},
+      author={David N. Palacio and Daniel Rodriguez-Cardenas and Alejandro Velasco and Suwash Silwal and Kevin Moran and Denys Poshyvanyk},
       year={2024},
       eprint={2407.08983},
       archivePrefix={arXiv},

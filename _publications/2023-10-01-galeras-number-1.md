@@ -18,7 +18,7 @@ This paper introduces a benchmarking strategy named Galeras for evaluating the p
 
 Recommended citation: @misc{rodriguezcardenas2023benchmarkingcausalstudyinterpret,
       title={Benchmarking Causal Study to Interpret Large Language Models for Source Code}, 
-      author={Daniel Rodriguez-Cardenas and David N. Palacio and Dipin Khati and Henry Burke and Denys Poshyvanyk},
+      author={Daniel Rodriguez-Cardenas and David N. Palacio and Suwash Silwal and Henry Burke and Denys Poshyvanyk},
       year={2023},
       eprint={2308.12415},
       archivePrefix={arXiv},
