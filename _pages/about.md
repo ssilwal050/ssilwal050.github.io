@@ -127,18 +127,6 @@ I am currently developing **Bayesian MCMC methods for binary, ordinal, and nomin
 
 ---
 
-## Selected Highlights
-
-- **Dean’s Award for Outstanding Scholarship**, Michigan Technological University (Spring 2026)
-- Presented research at **JSM 2025**, **JSM 2024**, and **SDSS 2024**
-- Research on **parameter-expanded Bayesian methods** for nominal outcomes with missing values
-- Professional experience in **survey statistics, sampling design, and applied data analysis**
-- Worked on projects supported by **World Bank**, **NORC**, and other international organizations
-- Former **President, Nepali Student Organization** at Michigan Tech
-- Member of the **American Statistical Association**
-
----
-
 ## Experience
 
 **Graduate Research Assistant** — Michigan Technological University, Houghton, MI *(Jan 2021 – Present)*  
