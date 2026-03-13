@@ -20,71 +20,128 @@ redirect_from:
 .opening-quote {
   position: relative;
   overflow: hidden;
-  margin: 0.8em 0 1.8em 0;
-  padding: 2.4em 2.2em 2em 2.6em;
-  border-radius: 14px;
+  margin: 0.6em 0 1.4em 0;
+  padding: 1.2em 1.4em 1.1em 1.6em;
+  border-radius: 10px;
   background: linear-gradient(135deg, #2a7fa8 0%, #2e9e8a 40%, #3ab89a 70%, #4db8c8 100%);
-  box-shadow: 0 8px 36px rgba(42, 127, 168, 0.28), inset 0 1px 0 rgba(255,255,255,0.15);
+  box-shadow: 0 4px 18px rgba(42, 127, 168, 0.22), inset 0 1px 0 rgba(255,255,255,0.12);
 }
 .opening-quote::before {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: radial-gradient(circle, rgba(255,255,255,0.16) 1.3px, transparent 1.3px);
-  background-size: 22px 22px;
+  background-image: radial-gradient(circle, rgba(0,0,0,0.08) 1.2px, transparent 1.2px);
+  background-size: 20px 20px;
   pointer-events: none;
 }
 .opening-quote::after {
   content: '\201C';
   position: absolute;
-  top: -0.05em;
-  left: 0.22em;
-  font-size: 9em;
+  top: -0.1em;
+  left: 0.18em;
+  font-size: 6em;
   line-height: 1;
   font-family: Georgia, serif;
-  color: white;
-  opacity: 0.13;
+  color: #000;
+  opacity: 0.10;
   pointer-events: none;
   user-select: none;
 }
 .opening-quote__text {
   position: relative;
   font-style: italic;
-  font-size: 1.15em;
-  line-height: 1.78;
-  color: #eaf6fb;
-  margin: 0 0 1em 0;
+  font-weight: 700;
+  font-size: 0.97em;
+  line-height: 1.65;
+  color: #0d1f1a;
+  margin: 0 0 0.6em 0;
   letter-spacing: 0.01em;
-  text-shadow: 0 1px 6px rgba(0,0,0,0.10);
 }
 .opening-quote__footer {
   position: relative;
   display: flex;
   align-items: center;
-  gap: 0.8em;
+  gap: 0.6em;
 }
 .opening-quote__rule {
   display: block;
-  width: 32px;
-  height: 2px;
-  background: rgba(255,255,255,0.50);
+  width: 24px;
+  height: 1.5px;
+  background: rgba(0,0,0,0.30);
   border-radius: 2px;
   flex-shrink: 0;
 }
 .opening-quote__author {
   margin: 0;
   font-weight: 700;
-  font-size: 0.85em;
+  font-size: 0.75em;
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.78);
+  color: rgba(0,0,0,0.55);
+}
+.news-highlights {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.9em;
+  margin-top: 1em;
+}
+.news-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8em;
+  padding: 0.9em 1em;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  background: #fcfcfc;
+}
+.news-icon {
+  font-size: 1.2em;
+  line-height: 1.2;
+}
+.news-text {
+  line-height: 1.6;
+}
+.quick-links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 8px;
+  margin: 16px 0;
+}
+.quick-link-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 8px 10px;
+  border: 1.5px solid #c8e6c9;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #1b4d2e;
+  background: #f1f8f2;
+  transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s, background 0.2s;
+}
+.quick-link-card:hover {
+  box-shadow: 0 5px 16px rgba(58, 125, 68, 0.15);
+  transform: translateY(-3px);
+  border-color: #3a7d44;
+  background: #e6f4e8;
+}
+.ql-icon {
+  font-size: 1.3rem;
+  margin-bottom: 6px;
+  line-height: 1;
+}
+.ql-label {
+  font-size: 0.72rem;
+  text-align: center;
+  font-weight: 600;
+  color: #2e6b3e;
 }
 </style>
 
 ## About Me
 I am a **PhD Candidate in Statistics** in the Department of Mathematical Sciences at **Michigan Technological University**, Houghton, Michigan, where I work under the supervision of [Prof. Xiao Zhang](https://www.mtu.edu/math/department/faculty-staff/faculty/x-zhang/). My research focuses on **Bayesian modeling for discrete and categorical data**, with particular emphasis on **MCMC methods**, **missing data**, and the **Multinomial Probit Model (MNP)**.
 
-My current work develops **parameter-expanded data-augmentation methods** for binary, ordinal, and nominal outcomes with missing values. This research has been presented at leading statistical conferences including **JSM 2024**, **JSM 2025**, and **SDSS 2024**. I was also honored with the **Dean’s Award for Outstanding Scholarship (Spring 2026)** at Michigan Tech.
+My current work develops **parameter-expanded data-augmentation methods** for binary, ordinal, and nominal outcomes with missing values. This research has been presented at leading statistical conferences including **JSM 2024**, **JSM 2025**, and **SDSS 2024**. I was also honored with the **Dean's Award for Outstanding Scholarship (Spring 2026)** at Michigan Tech.
 
 Before starting my doctoral studies, I worked as a **data analyst and statistician** on large-scale survey and policy-oriented projects supported by organizations such as the **World Bank**, **NORC**, and other international partners. My work combines methodological research with applied statistics, survey analysis, and real-world problem solving.
 
@@ -144,7 +201,7 @@ For a full list, please see my [Publications page](/publications/).
   <div class="news-card">
     <div class="news-icon">🏅</div>
     <div class="news-text">
-      <strong>Spring 2026:</strong> Received the <strong>Dean’s Award for Outstanding Scholarship</strong> at Michigan Technological University.
+      <strong>Spring 2026:</strong> Received the <strong>Dean's Award for Outstanding Scholarship</strong> at Michigan Technological University.
     </div>
   </div>
 
