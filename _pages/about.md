@@ -198,6 +198,14 @@ For a full list, please see my [Publications page](/publications/).
 ## Recent News
 
 <div class="news-highlights">
+
+  <div class="news-card">
+    <div class="news-icon">📝</div>
+    <div class="news-text">
+      <strong> May 2025:</strong> Published <strong>"Parameter-Expanded Data Augmentation for Analyzing Discrete Nominal Measures with Missing Values Using Multinomial Probit Models."</strong>.
+    </div>
+  </div>
+
   <div class="news-card">
     <div class="news-icon">🏅</div>
     <div class="news-text">
@@ -209,13 +217,6 @@ For a full list, please see my [Publications page](/publications/).
     <div class="news-icon">🎤</div>
     <div class="news-text">
       <strong>August 2025:</strong> Presented at <strong>JSM 2025</strong> in Nashville, Tennessee, with support from the ASA Travel Award and GSG Travel Grant.
-    </div>
-  </div>
-
-  <div class="news-card">
-    <div class="news-icon">📝</div>
-    <div class="news-text">
-      <strong>2025:</strong> Submitted research on <strong>parameter-expanded data augmentation for Multinomial Probit models with missing values</strong>.
     </div>
   </div>
 
