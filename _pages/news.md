@@ -78,6 +78,14 @@ author_profile: true
 
   <div class="tl-item">
     <div class="tl-header">
+      <span class="tl-date">May 2025</span>
+      <span class="tl-title">📄 Paper Published</span>
+    </div>
+    <p class="tl-body">Published <em>"Parameter-Expanded Data Augmentation for Analyzing Discrete Nominal Measures with Missing Values Using Multinomial Probit Models."</em></p>
+  </div>
+
+  <div class="tl-item">
+    <div class="tl-header">
       <span class="tl-date">Spring 2026</span>
       <span class="tl-title">🏅 Dean's Award for Outstanding Scholarship</span>
     </div>
@@ -122,14 +130,6 @@ author_profile: true
       <span class="tl-title">📊 Presented at JSM 2024</span>
     </div>
     <p class="tl-body">Presented <em>"Parameter-Expanded Data Augmentation for Analyzing Categorical Data Using Multinomial Probit Models"</em> at <strong>JSM 2024</strong> in Portland, Oregon.</p>
-  </div>
-
-  <div class="tl-item">
-    <div class="tl-header">
-      <span class="tl-date">Jun 2024</span>
-      <span class="tl-title">📈 Presented at SDSS 2024</span>
-    </div>
-    <p class="tl-body">Presented <em>"Parameter-Expanded Data Augmentation for Multinomial Probit Models"</em> at <strong>SDSS 2024</strong> in Richmond, Virginia.</p>
   </div>
 
   <div class="tl-item">
