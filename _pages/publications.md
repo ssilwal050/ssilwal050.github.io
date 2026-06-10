@@ -6,87 +6,108 @@ author_profile: true
 ---
 
 <style>
-.pub-section-title {
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #1a7a6e;
-  margin: 2em 0 0.8em;
-  padding-bottom: 6px;
-  border-bottom: 2px solid #d0e8f0;
-}
-.scholar-banner {
+.pub-scholar-bar {
   display: flex;
   align-items: center;
-  gap: 12px;
-  background: #f0f8fa;
-  border: 1px solid #d0e8f0;
-  border-left: 4px solid #1a7a6e;
-  padding: 14px 18px;
-  border-radius: 8px;
+  gap: 10px;
+  background: #f4faf8;
+  border: 1px solid #c8e6d8;
+  border-left: 3px solid #1a7a6e;
+  padding: 11px 16px;
+  border-radius: 0 8px 8px 0;
   margin-bottom: 2em;
-  font-size: 0.9rem;
-  color: #0e4d6b;
+  font-size: 0.875rem;
+  color: #335566;
 }
-.scholar-banner a {
+.pub-scholar-bar a {
   color: #1a7a6e;
   font-weight: 600;
   text-decoration: none;
 }
-.scholar-banner a:hover {
-  text-decoration: underline;
+.pub-scholar-bar a:hover { text-decoration: underline; }
+
+.pub-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 2em;
 }
+.pub-stat {
+  background: #f4faf8;
+  border: 1px solid #d0e8f0;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+}
+.pub-stat-n {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #0e4d6b;
+  margin: 0;
+}
+.pub-stat-l {
+  font-size: 0.72rem;
+  color: #557;
+  margin: 3px 0 0;
+}
+
+.pub-section-title {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #1a7a6e;
+  margin: 2em 0 0.75em;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #d0e8f0;
+}
+
 .pub-card {
   background: #fff;
   border: 1px solid #d0e8f0;
-  border-radius: 8px;
-  padding: 16px 18px;
+  border-left: 3px solid #1a7a6e;
+  border-radius: 0 8px 8px 0;
+  padding: 14px 16px;
   margin-bottom: 12px;
   transition: box-shadow 0.2s, transform 0.2s;
-  position: relative;
 }
 .pub-card:hover {
   box-shadow: 0 4px 14px rgba(14, 77, 107, 0.1);
-  transform: translateY(-2px);
+  transform: translateX(3px);
+}
+
+.pub-badges {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
 }
 .pub-badge {
   display: inline-block;
   font-size: 0.65rem;
   font-weight: 700;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   padding: 2px 9px;
   border-radius: 20px;
-  margin-bottom: 8px;
 }
-.badge-journal {
-  background: #e0f2f1;
-  color: #00695c;
-}
-.badge-preprint {
-  background: #fff3e0;
-  color: #e65100;
-}
-.badge-conference {
-  background: #e8eaf6;
-  color: #283593;
-}
+.badge-journal  { background: #e0f2f1; color: #00695c; }
+.badge-year     { background: #f0f4f8; color: #445566; }
+.badge-oa       { background: #fff8e1; color: #bf6c00; }
+
 .pub-title {
   font-size: 0.95rem;
   font-weight: 600;
   color: #0e4d6b;
+  line-height: 1.45;
   margin: 0 0 5px;
-  line-height: 1.4;
 }
 .pub-authors {
   font-size: 0.8rem;
   color: #557;
-  margin: 0 0 4px;
+  margin: 0 0 3px;
 }
-.pub-authors strong {
-  color: #0e4d6b;
-}
+.pub-authors strong { color: #0e4d6b; }
 .pub-venue {
   font-size: 0.8rem;
   color: #1a7a6e;
@@ -95,27 +116,27 @@ author_profile: true
 }
 .pub-links {
   display: flex;
-  flex-wrap: wrap;
   gap: 6px;
+  flex-wrap: wrap;
 }
 .pub-link {
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   font-weight: 600;
-  padding: 3px 10px;
+  padding: 3px 11px;
   border-radius: 20px;
   text-decoration: none;
   border: 1px solid;
-  transition: background 0.15s;
+  transition: opacity 0.15s;
 }
-.link-pdf   { color: #c62828; border-color: #c62828; }
-.link-doi   { color: #0e4d6b; border-color: #0e4d6b; }
-.link-code  { color: #1a7a6e; border-color: #1a7a6e; }
-.link-arxiv { color: #b26a00; border-color: #b26a00; }
-.pub-link:hover { background: #f0f8fa; }
+.pub-link:hover { opacity: 0.75; }
+.link-doi  { color: #0e4d6b; border-color: #0e4d6b; }
+.link-pdf  { color: #c62828; border-color: #c62828; }
+.link-cite { color: #1a7a6e; border-color: #1a7a6e; }
+.link-rg   { color: #b26a00; border-color: #b26a00; }
 </style>
 
 {% if site.author.googlescholar %}
-<div class="scholar-banner">
+<div class="pub-scholar-bar">
   📖 Find my full list of articles on
   <a href="https://scholar.google.com/citations?hl=en&user=RZAbmdMAAAAJ" target="_blank">
     Google Scholar ↗
@@ -123,24 +144,49 @@ author_profile: true
 </div>
 {% endif %}
 
-{% include base_path %}
+<div class="pub-stats">
+  <div class="pub-stat">
+    <p class="pub-stat-n">2</p>
+    <p class="pub-stat-l">Publications</p>
+  </div>
+  <div class="pub-stat">
+    <p class="pub-stat-n">2019–2026</p>
+    <p class="pub-stat-l">Years active</p>
+  </div>
+  <div class="pub-stat">
+    <p class="pub-stat-n">2</p>
+    <p class="pub-stat-l">Journals</p>
+  </div>
+</div>
 
 <p class="pub-section-title">Journal Articles</p>
 
 <div class="pub-card">
-  <span class="pub-badge badge-journal">Journal Article</span>
-  <p class="pub-title">Parameter-Expanded Data Augmentation for Analyzing Discrete Nominal Measures with Missing Values Using Multinomial Probit Models</p>
-  <p class="pub-authors"><strong>Silwal, S.</strong>, & [Co-authors]</p>
-  <p class="pub-venue">The American Statistician, May 2025</p>
+  <div class="pub-badges">
+    <span class="pub-badge badge-journal">Journal Article</span>
+    <span class="pub-badge badge-year">May 2026</span>
+    <span class="pub-badge badge-oa">Open Access</span>
+  </div>
+  <p class="pub-title">Parameter-Expanded Data Augmentation for Analyzing Nominal Data With Missing Values Using Multinomial Probit Models</p>
+  <p class="pub-authors"><strong>Silwal, S.</strong> &amp; Zhang, X.</p>
+  <p class="pub-venue">Journal of Mathematics and Statistics, Vol. 22, No. 1, pp. 19–28, 2026</p>
   <div class="pub-links">
-    <a class="pub-link link-doi" href="#">DOI ↗</a>
-    <a class="pub-link link-pdf" href="#">PDF ↗</a>
-    <a class="pub-link link-code" href="#">Code ↗</a>
+    <a class="pub-link link-doi" href="https://doi.org/10.3844/jmssp.2026.19.28" target="_blank">DOI ↗</a>
+    <a class="pub-link link-pdf" href="https://thescipub.com/pdf/jmssp.2026.19.28.pdf" target="_blank">PDF ↗</a>
+    <a class="pub-link link-cite" href="https://thescipub.com/citation/jmssp.2026.19.28/ris" target="_blank">Cite ↗</a>
   </div>
 </div>
 
-<p class="pub-section-title">Conference Papers & Presentations</p>
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="pub-card">
+  <div class="pub-badges">
+    <span class="pub-badge badge-journal">Journal Article</span>
+    <span class="pub-badge badge-year">2019</span>
+  </div>
+  <p class="pub-title">Assessment of Oral Health Knowledge, Attitude and Practice among School Children in Kathmandu Metropolitan City, Nepal</p>
+  <p class="pub-authors">Suwash Silwal et al.</p>
+  <p class="pub-venue">Research &amp; Reviews: Journal of Statistics, 2019</p>
+  <div class="pub-links">
+    <a class="pub-link link-pdf" href="https://www.researchgate.net/profile/Pravat-Uprety/publication/347489592_Assessment_of_Oral_Health_Knowledge_Attitude_and_Practice_among_School_Children_in_Kathmandu_Metropolitan_City_Nepal/links/5fddf2ac92851c13fe9d43f5/Assessment-of-Oral-Health-Knowledge-Attitude-and-Practice-among-School-Children-in-Kathmandu-Metropolitan-City-Nepal.pdf" target="_blank">PDF ↗</a>
+    <a class="pub-link link-rg" href="https://www.researchgate.net/publication/347489592" target="_blank">ResearchGate ↗</a>
+  </div>
+</div>
