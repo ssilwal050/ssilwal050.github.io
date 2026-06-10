@@ -202,7 +202,7 @@ For a full list, please see my [Publications page](/publications/).
   <div class="news-card">
     <div class="news-icon">📝</div>
     <div class="news-text">
-      <strong> May 2025:</strong> Published <strong>"Parameter-Expanded Data Augmentation for Analyzing Discrete Nominal Measures with Missing Values Using Multinomial Probit Models."</strong>.
+      <strong> May 2026:</strong> Published <strong>"Parameter-Expanded Data Augmentation for Analyzing Discrete Nominal Measures with Missing Values Using Multinomial Probit Models."</strong>.
     </div>
   </div>
 
