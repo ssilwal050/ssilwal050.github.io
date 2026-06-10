@@ -91,21 +91,25 @@ author_profile: true
   padding: 2px 9px;
   border-radius: 20px;
 }
-.badge-journal  { background: #e0f2f1; color: #00695c; }
-.badge-year     { background: #f0f4f8; color: #445566; }
-.badge-oa       { background: #fff8e1; color: #bf6c00; }
+.badge-journal { background: #e0f2f1; color: #00695c; }
+.badge-year    { background: #f0f4f8; color: #445566; }
+.badge-oa      { background: #fff8e1; color: #bf6c00; }
 
-.pub-title {
+.pub-title a {
   font-size: 0.95rem;
   font-weight: 600;
   color: #0e4d6b;
   line-height: 1.45;
-  margin: 0 0 5px;
+  text-decoration: none;
+}
+.pub-title a:hover {
+  text-decoration: underline;
+  color: #1a7a6e;
 }
 .pub-authors {
   font-size: 0.8rem;
   color: #557;
-  margin: 0 0 3px;
+  margin: 4px 0 3px;
 }
 .pub-authors strong { color: #0e4d6b; }
 .pub-venue {
@@ -118,6 +122,7 @@ author_profile: true
   display: flex;
   gap: 6px;
   flex-wrap: wrap;
+  align-items: center;
 }
 .pub-link {
   font-size: 0.7rem;
@@ -129,10 +134,12 @@ author_profile: true
   transition: opacity 0.15s;
 }
 .pub-link:hover { opacity: 0.75; }
-.link-doi  { color: #0e4d6b; border-color: #0e4d6b; }
-.link-pdf  { color: #c62828; border-color: #c62828; }
-.link-cite { color: #1a7a6e; border-color: #1a7a6e; }
-.link-rg   { color: #b26a00; border-color: #b26a00; }
+.link-doi      { color: #0e4d6b; border-color: #0e4d6b; }
+.link-pdf      { color: #c62828; border-color: #c62828; }
+.link-cite     { color: #1a7a6e; border-color: #1a7a6e; }
+.link-rg       { color: #b26a00; border-color: #b26a00; }
+.link-abstract { color: #557;    border-color: #c0ccd6; }
+.link-abstract:hover { background: #f0f4f8; color: #0e4d6b; opacity: 1; }
 </style>
 
 {% if site.author.googlescholar %}
@@ -167,13 +174,14 @@ author_profile: true
     <span class="pub-badge badge-year">May 2026</span>
     <span class="pub-badge badge-oa">Open Access</span>
   </div>
-  <p class="pub-title">Parameter-Expanded Data Augmentation for Analyzing Nominal Data With Missing Values Using Multinomial Probit Models</p>
+  <p class="pub-title"><a href="/publication/2026-mnp-missing-values">Parameter-Expanded Data Augmentation for Analyzing Nominal Data With Missing Values Using Multinomial Probit Models</a></p>
   <p class="pub-authors"><strong>Silwal, S.</strong> &amp; Zhang, X.</p>
   <p class="pub-venue">Journal of Mathematics and Statistics, Vol. 22, No. 1, pp. 19–28, 2026</p>
   <div class="pub-links">
-    <a class="pub-link link-doi" href="https://doi.org/10.3844/jmssp.2026.19.28" target="_blank">DOI ↗</a>
-    <a class="pub-link link-pdf" href="https://thescipub.com/pdf/jmssp.2026.19.28.pdf" target="_blank">PDF ↗</a>
-    <a class="pub-link link-cite" href="https://thescipub.com/citation/jmssp.2026.19.28/ris" target="_blank">Cite ↗</a>
+    <a class="pub-link link-abstract" href="/publication/2026-mnp-missing-values">Abstract ↗</a>
+    <a class="pub-link link-doi"      href="https://doi.org/10.3844/jmssp.2026.19.28" target="_blank">DOI ↗</a>
+    <a class="pub-link link-pdf"      href="https://thescipub.com/pdf/jmssp.2026.19.28.pdf" target="_blank">PDF ↗</a>
+    <a class="pub-link link-cite"     href="https://thescipub.com/citation/jmssp.2026.19.28/ris" target="_blank">Cite ↗</a>
   </div>
 </div>
 
@@ -182,11 +190,12 @@ author_profile: true
     <span class="pub-badge badge-journal">Journal Article</span>
     <span class="pub-badge badge-year">2019</span>
   </div>
-  <p class="pub-title">Assessment of Oral Health Knowledge, Attitude and Practice among School Children in Kathmandu Metropolitan City, Nepal</p>
+  <p class="pub-title"><a href="/publication/2019-oral-health">Assessment of Oral Health Knowledge, Attitude and Practice among School Children in Kathmandu Metropolitan City, Nepal</a></p>
   <p class="pub-authors">Suwash Silwal et al.</p>
   <p class="pub-venue">Research &amp; Reviews: Journal of Statistics, 2019</p>
   <div class="pub-links">
-    <a class="pub-link link-pdf" href="https://www.researchgate.net/profile/Pravat-Uprety/publication/347489592_Assessment_of_Oral_Health_Knowledge_Attitude_and_Practice_among_School_Children_in_Kathmandu_Metropolitan_City_Nepal/links/5fddf2ac92851c13fe9d43f5/Assessment-of-Oral-Health-Knowledge-Attitude-and-Practice-among-School-Children-in-Kathmandu-Metropolitan-City-Nepal.pdf" target="_blank">PDF ↗</a>
-    <a class="pub-link link-rg" href="https://www.researchgate.net/publication/347489592" target="_blank">ResearchGate ↗</a>
+    <a class="pub-link link-abstract" href="/publication/2019-oral-health">Abstract ↗</a>
+    <a class="pub-link link-pdf"      href="https://www.researchgate.net/profile/Pravat-Uprety/publication/347489592_Assessment_of_Oral_Health_Knowledge_Attitude_and_Practice_among_School_Children_in_Kathmandu_Metropolitan_City_Nepal/links/5fddf2ac92851c13fe9d43f5/Assessment-of-Oral-Health-Knowledge-Attitude-and-Practice-among-School-Children-in-Kathmandu-Metropolitan-City-Nepal.pdf" target="_blank">PDF ↗</a>
+    <a class="pub-link link-rg"       href="https://www.researchgate.net/publication/347489592" target="_blank">ResearchGate ↗</a>
   </div>
 </div>

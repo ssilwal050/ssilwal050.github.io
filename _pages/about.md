@@ -187,7 +187,7 @@ Taught Survey Statistics, Demography, Biostatistics, and Research Methodology; s
 
 ## Selected Publications
 
-- **Silwal, S., & Zhang, X.** (2025). *Parameter-Expanded Data Augmentation for Analyzing Discrete Nominal Measures with Missing Values Using Multinomial Probit Models.* Submitted.
+- **Silwal, S., & Zhang, X.** (2026). *Parameter-Expanded Data Augmentation for Analyzing Discrete Nominal Measures with Missing Values Using Multinomial Probit Models.
 
 - **Silwal, S., & Uprety, P.** (2019). *Assessment of Oral Health Knowledge, Attitude and Practice Among School Children in Kathmandu Metropolitan City, Nepal.* *RRJoST, 8*, 1–10.
 
