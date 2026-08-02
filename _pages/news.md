@@ -78,7 +78,16 @@ author_profile: true
 
   <div class="tl-item">
     <div class="tl-header">
-      <span class="tl-date">May 2025</span>
+      <span class="tl-date">July 2025</span>
+      <span class="tl-title">📄 Ph.D. Graduate</span>
+    </div>
+    <p class="tl-body">Published <em> A **Ph.D. in Statistics** from the Department of Mathematical Sciences at **Michigan Technological University**, Houghton, Michigan</em></p>
+  </div>
+
+
+  <div class="tl-item">
+    <div class="tl-header">
+      <span class="tl-date">May 2026</span>
       <span class="tl-title">📄 Paper Published</span>
     </div>
     <p class="tl-body">Published <em>"Parameter-Expanded Data Augmentation for Analyzing Discrete Nominal Measures with Missing Values Using Multinomial Probit Models."</em></p>
