@@ -81,7 +81,7 @@ author_profile: true
       <span class="tl-date">July 2025</span>
       <span class="tl-title">📄 Ph.D. Graduate</span>
     </div>
-    <p class="tl-body">Published <em> A **Ph.D. in Statistics** from the Department of Mathematical Sciences at **Michigan Technological University**, Houghton, Michigan</em></p>
+    <p class="tl-body"> Received a **Ph.D. in Statistics** degree from the Department of Mathematical Sciences at **Michigan Technological University**, Houghton, Michigan</p>
   </div>
 
 
