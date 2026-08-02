@@ -1,7 +1,7 @@
 ---
 permalink: /
 title:
-excerpt: "PhD Candidate in Statistics"
+excerpt: "Ph.D. in Statistics"
 author_profile: true
 redirect_from:
   - /about/
@@ -11,73 +11,33 @@ redirect_from:
 <div class="opening-quote">
   <p class="opening-quote__text">"Data is like garbage. You'd better know what you're going to do with it before you collect it."</p>
   <div class="opening-quote__footer">
-    <span class="opening-quote__rule"></span>
-    <p class="opening-quote__author">Mark Twain</p>
+    <p class="opening-quote__author">— Mark Twain</p>
   </div>
 </div>
 
 <style>
 .opening-quote {
-  position: relative;
-  overflow: hidden;
-  margin: 0.6em 0 1.4em 0;
-  padding: 1.2em 1.4em 1.1em 1.6em;
-  border-radius: 10px;
-  background: linear-gradient(135deg, #2a7fa8 0%, #2e9e8a 40%, #3ab89a 70%, #4db8c8 100%);
-  box-shadow: 0 4px 18px rgba(42, 127, 168, 0.22), inset 0 1px 0 rgba(255,255,255,0.12);
-}
-.opening-quote::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image: radial-gradient(circle, rgba(0,0,0,0.08) 1.2px, transparent 1.2px);
-  background-size: 20px 20px;
-  pointer-events: none;
-}
-.opening-quote::after {
-  content: '\201C';
-  position: absolute;
-  top: -0.1em;
-  left: 0.18em;
-  font-size: 6em;
-  line-height: 1;
-  font-family: Georgia, serif;
-  color: #000;
-  opacity: 0.10;
-  pointer-events: none;
-  user-select: none;
+  margin: 0.5em 0 1.3em 0;
+  padding: 0.3em 0 0.3em 0.9em;
+  border-left: 2px solid #ccc;
 }
 .opening-quote__text {
-  position: relative;
   font-style: italic;
-  font-weight: 700;
-  font-size: 0.97em;
-  line-height: 1.65;
-  color: #0d1f1a;
-  margin: 0 0 0.6em 0;
-  letter-spacing: 0.01em;
+  font-weight: 400;
+  font-size: 0.85em;
+  line-height: 1.5;
+  color: #666;
+  margin: 0 0 0.25em 0;
 }
 .opening-quote__footer {
-  position: relative;
   display: flex;
   align-items: center;
-  gap: 0.6em;
-}
-.opening-quote__rule {
-  display: block;
-  width: 24px;
-  height: 1.5px;
-  background: rgba(0,0,0,0.30);
-  border-radius: 2px;
-  flex-shrink: 0;
 }
 .opening-quote__author {
   margin: 0;
-  font-weight: 700;
-  font-size: 0.75em;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  color: rgba(0,0,0,0.55);
+  font-size: 0.78em;
+  color: #999;
+  font-weight: 400;
 }
 .news-highlights {
   display: grid;
@@ -139,9 +99,10 @@ redirect_from:
 </style>
 
 ## About Me
-I am a **PhD Candidate in Statistics** in the Department of Mathematical Sciences at **Michigan Technological University**, Houghton, Michigan, where I work under the supervision of [Prof. Xiao Zhang](https://www.mtu.edu/math/department/faculty-staff/faculty/x-zhang/). My research focuses on **Bayesian modeling for discrete and categorical data**, with particular emphasis on **MCMC methods**, **missing data**, and the **Multinomial Probit Model (MNP)**.
+I hold a **Ph.D. in Statistics** from the Department of Mathematical Sciences at **Michigan Technological University**, Houghton, Michigan, where I worked under the supervision of [Prof. Xiao Zhang](https://www.mtu.edu/math/department/faculty-staff/faculty/x-zhang/). My research focuses on **Bayesian modeling for discrete and categorical data**, with particular emphasis on **MCMC methods**, **missing data**, and the **Multinomial Probit Model (MNP)**.
 
-My current work develops **parameter-expanded data-augmentation methods** for binary, ordinal, and nominal outcomes with missing values. This research has been presented at leading statistical conferences including **JSM 2024**, **JSM 2025**, and **SDSS 2024**. I was also honored with the **Dean's Award for Outstanding Scholarship (Spring 2026)** at Michigan Tech.
+My doctoral work developed **parameter-expanded data-augmentation methods** for binary, ordinal, and nominal outcomes with missing values. This research was presented at leading statistical conferences including **JSM 2024**, **JSM 2025**, and **SDSS 2024**. I was also honored with the **Dean's Award for Outstanding Scholarship (Spring 2026)** at Michigan Tech.
+
 
 Before starting my doctoral studies, I worked as a **data analyst and statistician** on large-scale survey and policy-oriented projects supported by organizations such as the **World Bank**, **NORC**, and other international partners. My work combines methodological research with applied statistics, survey analysis, and real-world problem solving.
 
@@ -171,7 +132,7 @@ I am currently developing **Bayesian MCMC methods for binary, ordinal, and nomin
 
 ## Experience
 
-**Graduate Research Assistant** — Michigan Technological University, Houghton, MI *(Jan 2021 – Present)*  
+**Graduate Research Assistant** — Michigan Technological University, Houghton, MI *(Jan 2021 – 2026)*  
 Research on Bayesian modeling for nominal and categorical outcomes with missing values using the Multinomial Probit framework; development of efficient MCMC algorithms and parameter-expanded Gibbs samplers.
 
 **Graduate Teaching Instructor** — Michigan Technological University, Houghton, MI *(Aug 2021 – Dec 2023)*  
@@ -200,9 +161,16 @@ For a full list, please see my [Publications page](/publications/).
 <div class="news-highlights">
 
   <div class="news-card">
+    <div class="news-icon">🎓</div>
+    <div class="news-text">
+      <strong>July 2026:</strong> Successfully defended my Ph.D. dissertation in Statistics at Michigan Technological University.
+    </div>
+  </div>
+
+  <div class="news-card">
     <div class="news-icon">📝</div>
     <div class="news-text">
-      <strong> May 2026:</strong> Published <strong>"Parameter-Expanded Data Augmentation for Analyzing Discrete Nominal Measures with Missing Values Using Multinomial Probit Models."</strong>.
+      <strong>May 2026:</strong> Published <strong>"Parameter-Expanded Data Augmentation for Analyzing Discrete Nominal Measures with Missing Values Using Multinomial Probit Models."</strong>
     </div>
   </div>
 
