@@ -17,41 +17,37 @@ redirect_from:
 
 <style>
 .opening-quote {
-  position: relative;
-  margin: 0.4em 0 1.8em 0;
-  padding: 1.5em 1.8em 1.2em 3.6em;
-  background: #ffffff;
-  border: 1px solid #cfdcd5;
-  border-radius: 12px;
+  margin: 0.6em auto 2.2em auto;
+  padding: 1.4em 0.5em 0 0.5em;
+  max-width: 34em;
+  text-align: center;
 }
 .opening-quote::before {
-  content: "\201C";
-  position: absolute;
-  left: 0.28em;
-  top: 0.12em;
-  font-family: "Source Serif 4", Georgia, serif;
-  font-size: 4.2em;
-  line-height: 1;
-  color: #2f6b45;
+  content: "";
+  display: block;
+  width: 3em;
+  height: 2px;
+  margin: 0 auto 1.1em auto;
+  background: #2f6b45;
 }
 .opening-quote__text {
   font-family: "Source Serif 4", Georgia, serif;
   font-style: italic;
   font-weight: 400;
-  font-size: 1.1em;
-  line-height: 1.55;
+  font-size: 1.35em;
+  line-height: 1.5;
   color: #1f3a5f;
-  margin: 0 0 0.7em 0;
+  margin: 0 0 0.8em 0;
 }
 .opening-quote__footer {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 .opening-quote__author {
   margin: 0;
   font-size: 0.72em;
-  font-weight: 500;
-  letter-spacing: 0.14em;
+  font-weight: 600;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   color: #2f6b45;
 }
@@ -120,6 +116,10 @@ I'm a statistician who builds **Bayesian methods for categorical data with missi
 At **Michigan Technological University**, working with [Prof. Xiao Zhang](https://www.mtu.edu/math/department/faculty-staff/faculty/x-zhang/), I developed a novel **parameter-expanded Gibbs sampler** for the **Multinomial Probit (MNP)** model. It improves posterior mixing, convergence speed, and estimation accuracy. I extended the framework to **multivariate and longitudinal** data and built principled **missing-data handling** directly into the sampler, then tested it through extensive simulation studies and real-data applications. The work has been published in the *Journal of Mathematics and Statistics* and presented at **JSM 2024**, **JSM 2025**, and **SDSS 2024**. It earned the university's **Dean's Award for Outstanding Scholarship** (Spring 2026).
 
 Before graduate school in the U.S., I spent several years in Kathmandu as a **data analyst and statistician**, leading modeling and analysis for large-scale survey projects funded by **NORC**, the **World Bank**, and **IRI**, and designing sampling plans, questionnaires, and reporting frameworks for policy clients. I have also taught statistics from Nepal to Michigan, from Survey Statistics and Biostatistics to Engineering Statistics, with R and MATLAB computational labs.
+
+I also love teaching. At **Michigan Tech**, I taught **Engineering Statistics** and **Pre-calculus**, designed exams, problem sets, and auto-graded quizzes, and led **R and MATLAB** computational labs. Earlier, at **Amrit Campus (Tribhuvan University)** in Nepal, I taught **Survey Statistics**, **Demography**, **Biostatistics**, and **Research Methodology**, and mentored undergraduate capstone projects.
+
+My research interests include **Bayesian computation**, **causal inference**, **missing data imputation and methodology**, and **multivariate and longitudinal data analysis**.
 
 ---
 
