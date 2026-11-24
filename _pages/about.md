@@ -231,7 +231,7 @@ For a full list, please see my [Publications page](/publications/).
     <span class="ql-icon">📄</span>
     <span class="ql-label">Curriculum Vitae</span>
   </a>
-  <a href="/files/suwash_CV_updated_1225025.pdf" target="_blank" class="quick-link-card">
+  <a href="/files/Suwash_Silwal_CV.pdf" target="_blank" class="quick-link-card">
     <span class="ql-icon">⬇️</span>
     <span class="ql-label">Download CV</span>
   </a>
