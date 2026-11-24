@@ -115,7 +115,7 @@ redirect_from:
 </style>
 
 ## About Me
-My dissertation research at **Michigan Technological University**, supervised by [Prof. Xiao Zhang](https://www.mtu.edu/math/department/faculty-staff/faculty/x-zhang/), focused on **Bayesian modeling for discrete and categorical data**, with particular emphasis on **MCMC methods**, **missing data**, and the **Multinomial Probit Model (MNP)**.
+I'm a statistician who earned a **Ph.D. in Statistics** in the Department of Mathematical Sciences at **Michigan Technological University** in Houghton, Michigan, under the guidance of [Prof. Xiao Zhang](https://www.mtu.edu/math/department/faculty-staff/faculty/x-zhang/). I'm drawn to **Bayesian modeling for discrete and categorical data**, especially **MCMC methods**, **missing data**, and the **Multinomial Probit Model (MNP)**.
 
 My doctoral work developed **parameter-expanded data-augmentation methods** for binary, ordinal, and nominal outcomes with missing values. This research was presented at leading statistical conferences including **JSM 2024**, **JSM 2025**, and **SDSS 2024**. I was also honored with the **Dean's Award for Outstanding Scholarship (Spring 2026)** at Michigan Tech.
 
