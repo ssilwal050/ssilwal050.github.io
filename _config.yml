@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Suwash Silwal"
 title_separator          : "-"
 name                     : &name "Suwash Silwal"
-description              : &description "PhD Candidate in Statistics at Michigan Technological University | Bayesian Modeling | MCMC Methods | Missing Data Imputation"
+description              : &description "PhD in Statistics from Michigan Technological University | Bayesian Modeling | MCMC Methods | Missing Data Imputation"
 url                      : https://ssilwal050.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ssilwal050/ssilwal050.github.io"
@@ -84,9 +84,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Suwash Silwal"
+  name             : "Suwash Silwal, PhD"
   avatar           : "prof_pic.jpg"
-  bio              : "PhD Candidate in Statistics | Bayesian Modeling & MCMC | Missing Data | Michigan Tech"
+  bio              : "PhD in Statistics | Bayesian Modeling, Missing Data, Causal Inference"
   location         : "Houghton, MI"
   employer         : "Michigan Technological
                      University"
