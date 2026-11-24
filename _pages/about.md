@@ -17,41 +17,37 @@ redirect_from:
 
 <style>
 .opening-quote {
-  position: relative;
-  margin: 0.4em 0 1.8em 0;
-  padding: 1.5em 1.8em 1.2em 3.6em;
-  background: #ffffff;
-  border: 1px solid #cfdcd5;
-  border-radius: 12px;
+  margin: 0.6em auto 2.2em auto;
+  padding: 1.4em 0.5em 0 0.5em;
+  max-width: 34em;
+  text-align: center;
 }
 .opening-quote::before {
-  content: "\201C";
-  position: absolute;
-  left: 0.28em;
-  top: 0.12em;
-  font-family: "Source Serif 4", Georgia, serif;
-  font-size: 4.2em;
-  line-height: 1;
-  color: #2f6b45;
+  content: "";
+  display: block;
+  width: 3em;
+  height: 2px;
+  margin: 0 auto 1.1em auto;
+  background: #2f6b45;
 }
 .opening-quote__text {
   font-family: "Source Serif 4", Georgia, serif;
   font-style: italic;
   font-weight: 400;
-  font-size: 1.1em;
-  line-height: 1.55;
+  font-size: 1.35em;
+  line-height: 1.5;
   color: #1f3a5f;
-  margin: 0 0 0.7em 0;
+  margin: 0 0 0.8em 0;
 }
 .opening-quote__footer {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 .opening-quote__author {
   margin: 0;
   font-size: 0.72em;
-  font-weight: 500;
-  letter-spacing: 0.14em;
+  font-weight: 600;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   color: #2f6b45;
 }
