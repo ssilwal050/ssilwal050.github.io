@@ -115,12 +115,11 @@ redirect_from:
 </style>
 
 ## About Me
-I hold a **Ph.D. in Statistics** from the Department of Mathematical Sciences at **Michigan Technological University**, Houghton, Michigan, where I worked under the supervision of [Prof. Xiao Zhang](https://www.mtu.edu/math/department/faculty-staff/faculty/x-zhang/). My research focuses on **Bayesian modeling for discrete and categorical data**, with particular emphasis on **MCMC methods**, **missing data**, and the **Multinomial Probit Model (MNP)**.
+I'm a statistician who builds **Bayesian methods for categorical data with missing values**. My expertise spans **Bayesian computation**, **latent-variable models**, **missing-data methodology**, and **statistical programming** in R, Python, SQL, and SAS.
 
-My doctoral work developed **parameter-expanded data-augmentation methods** for binary, ordinal, and nominal outcomes with missing values. This research was presented at leading statistical conferences including **JSM 2024**, **JSM 2025**, and **SDSS 2024**. I was also honored with the **Dean's Award for Outstanding Scholarship (Spring 2026)** at Michigan Tech.
+At **Michigan Technological University**, working with [Prof. Xiao Zhang](https://www.mtu.edu/math/department/faculty-staff/faculty/x-zhang/), I developed a novel **parameter-expanded Gibbs sampler** for the **Multinomial Probit (MNP)** model. It improves posterior mixing, convergence speed, and estimation accuracy. I extended the framework to **multivariate and longitudinal** data and built principled **missing-data handling** directly into the sampler, then tested it through extensive simulation studies and real-data applications. The work has been published in the *Journal of Mathematics and Statistics* and presented at **JSM 2024**, **JSM 2025**, and **SDSS 2024**. It earned the university's **Dean's Award for Outstanding Scholarship** (Spring 2026).
 
-
-Before starting my doctoral studies, I worked as a **data analyst and statistician** on large-scale survey and policy-oriented projects supported by organizations such as the **World Bank**, **NORC**, and other international partners. My work combines methodological research with applied statistics, survey analysis, and real-world problem solving.
+Before graduate school in the U.S., I spent several years in Kathmandu as a **data analyst and statistician**, leading modeling and analysis for large-scale survey projects funded by **NORC**, the **World Bank**, and **IRI**, and designing sampling plans, questionnaires, and reporting frameworks for policy clients. I have also taught statistics from Nepal to Michigan, from Survey Statistics and Biostatistics to Engineering Statistics, with R and MATLAB computational labs.
 
 ---
 
@@ -232,7 +231,7 @@ For a full list, please see my [Publications page](/publications/).
     <span class="ql-icon">📄</span>
     <span class="ql-label">Curriculum Vitae</span>
   </a>
-  <a href="/files/suwash_CV_updated_1225025.pdf" target="_blank" class="quick-link-card">
+  <a href="/files/Suwash_Silwal_CV.pdf" target="_blank" class="quick-link-card">
     <span class="ql-icon">⬇️</span>
     <span class="ql-label">Download CV</span>
   </a>
