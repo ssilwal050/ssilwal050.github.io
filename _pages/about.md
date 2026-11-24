@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <div class="opening-quote">
-  <p class="opening-quote__text">"Data is like garbage. You'd better know what you're going to do with it before you collect it."</p>
+  <p class="opening-quote__text">Data is like garbage. You'd better know what you're going to do with it before you collect it.</p>
   <div class="opening-quote__footer">
     <p class="opening-quote__author">— Mark Twain</p>
   </div>
@@ -17,17 +17,31 @@ redirect_from:
 
 <style>
 .opening-quote {
-  margin: 0.5em 0 1.3em 0;
-  padding: 0.3em 0 0.3em 0.9em;
-  border-left: 2px solid #ccc;
+  position: relative;
+  margin: 0.4em 0 1.8em 0;
+  padding: 1.5em 1.8em 1.2em 3.6em;
+  background: #ffffff;
+  border: 1px solid #cfdcd5;
+  border-radius: 12px;
+}
+.opening-quote::before {
+  content: "\201C";
+  position: absolute;
+  left: 0.28em;
+  top: 0.12em;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 4.2em;
+  line-height: 1;
+  color: #2f6b45;
 }
 .opening-quote__text {
+  font-family: "Source Serif 4", Georgia, serif;
   font-style: italic;
   font-weight: 400;
-  font-size: 0.85em;
-  line-height: 1.5;
-  color: #666;
-  margin: 0 0 0.25em 0;
+  font-size: 1.1em;
+  line-height: 1.55;
+  color: #1f3a5f;
+  margin: 0 0 0.7em 0;
 }
 .opening-quote__footer {
   display: flex;
@@ -35,9 +49,11 @@ redirect_from:
 }
 .opening-quote__author {
   margin: 0;
-  font-size: 0.78em;
-  color: #999;
-  font-weight: 400;
+  font-size: 0.72em;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #2f6b45;
 }
 .news-highlights {
   display: grid;
@@ -50,9 +66,9 @@ redirect_from:
   align-items: flex-start;
   gap: 0.8em;
   padding: 0.9em 1em;
-  border: 1px solid #e6e6e6;
-  border-radius: 8px;
-  background: #fcfcfc;
+  border: 1px solid #cfdcd5;
+  border-radius: 10px;
+  background: #ffffff;
 }
 .news-icon {
   font-size: 1.2em;
@@ -72,18 +88,18 @@ redirect_from:
   flex-direction: column;
   align-items: center;
   padding: 12px 8px 10px;
-  border: 1.5px solid #c8e6c9;
+  border: 1.5px solid #cfdcd5;
   border-radius: 10px;
   text-decoration: none;
-  color: #1b4d2e;
-  background: #f1f8f2;
+  color: #1f3a5f;
+  background: #ffffff;
   transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s, background 0.2s;
 }
 .quick-link-card:hover {
-  box-shadow: 0 5px 16px rgba(58, 125, 68, 0.15);
+  box-shadow: 0 5px 16px rgba(31, 58, 95, 0.12);
   transform: translateY(-3px);
-  border-color: #3a7d44;
-  background: #e6f4e8;
+  border-color: #2f6b45;
+  background: #e5efe7;
 }
 .ql-icon {
   font-size: 1.3rem;
@@ -94,7 +110,7 @@ redirect_from:
   font-size: 0.72rem;
   text-align: center;
   font-weight: 600;
-  color: #2e6b3e;
+  color: #1f3a5f;
 }
 </style>
 

@@ -13,8 +13,8 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* system typefaces */
-$serif                      : "STIX Two Text", "Times New Roman", Georgia, serif;
-$sans-serif                 : "Outfit", -apple-system, "Helvetica Neue", Arial, sans-serif;
+$serif                      : "Source Serif 4", "Times New Roman", Georgia, serif;
+$sans-serif                 : "Inter", -apple-system, "Helvetica Neue", Arial, sans-serif;
 $monospace                  : "Fira Code", Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
@@ -32,8 +32,8 @@ $garamond                   : Garamond, serif;
    @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&family=Fira+Code:wght@400;500&display=swap');
    ───────────────────────────────────────────────────────────────────────── */
 
-$global-font-family         : $sans-serif;       // Outfit — body text
-$header-font-family         : $serif;            // STIX Two Text — headings
+$global-font-family         : $sans-serif;       // Inter — body text
+$header-font-family         : $serif;            // Source Serif 4 — headings
 $caption-font-family        : $sans-serif;
 
 /* type scale */
@@ -57,18 +57,18 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-$body-color                 : #f0f7f4;   /* green tint background */
-$background-color           : #f0f7f4;   /* green tint background */
-$code-background-color      : #e2f0e8;   /* slightly deeper green for code blocks */
+$body-color                 : #F3F8F5;   /* soft forest-tint background */
+$background-color           : #F3F8F5;   /* soft forest-tint background */
+$code-background-color      : #E5EFE7;   /* slightly deeper green for code blocks */
 $code-background-color-dark : $light-gray;
-$text-color                 : #000000;   /* near-black with slight green undertone */
-$border-color               : #c2d8cc;   /* soft green-grey border */
+$text-color                 : #1B2333;   /* deep ink, navy undertone */
+$border-color               : #CFDCD5;   /* soft green-grey border */
 
-$primary-color              : #043c7c;   /* blue — headings, nav active, blockquote border */
+$primary-color              : #1F3A5F;   /* academic navy — headings, nav, buttons */
 $success-color              : #03751c;   /* green — success states */
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
-$info-color                 : #1a6e4a;   /* green — inline links */
+$info-color                 : #2F6B45;   /* forest green — inline links */
 
 /* brands */
 $behance-color              : #1769FF;
