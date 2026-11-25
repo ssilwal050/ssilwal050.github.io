@@ -73,41 +73,6 @@ redirect_from:
 .news-text {
   line-height: 1.6;
 }
-.quick-links-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  gap: 8px;
-  margin: 16px 0;
-}
-.quick-link-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 12px 8px 10px;
-  border: 1.5px solid #cfdcd5;
-  border-radius: 10px;
-  text-decoration: none;
-  color: #1f3a5f;
-  background: #ffffff;
-  transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s, background 0.2s;
-}
-.quick-link-card:hover {
-  box-shadow: 0 5px 16px rgba(31, 58, 95, 0.12);
-  transform: translateY(-3px);
-  border-color: #2f6b45;
-  background: #e5efe7;
-}
-.ql-icon {
-  font-size: 1.3rem;
-  margin-bottom: 6px;
-  line-height: 1;
-}
-.ql-label {
-  font-size: 0.72rem;
-  text-align: center;
-  font-weight: 600;
-  color: #1f3a5f;
-}
 </style>
 
 ## About Me
@@ -224,41 +189,10 @@ For a full list, please see my [Publications page](/publications/).
 
 ---
 
-## Quick Links
-
-<div class="quick-links-grid">
-  <a href="/cv/" class="quick-link-card">
-    <span class="ql-icon">📄</span>
-    <span class="ql-label">Curriculum Vitae</span>
-  </a>
-  <a href="/files/Suwash_Silwal_CV.pdf" target="_blank" class="quick-link-card">
-    <span class="ql-icon">⬇️</span>
-    <span class="ql-label">Download CV</span>
-  </a>
-  <a href="/publications/" class="quick-link-card">
-    <span class="ql-icon">📚</span>
-    <span class="ql-label">Publications</span>
-  </a>
-  <a href="/teaching/" class="quick-link-card">
-    <span class="ql-icon">🎓</span>
-    <span class="ql-label">Teaching</span>
-  </a>
-  <a href="https://www.linkedin.com/in/ssilwal050/" class="quick-link-card">
-    <span class="ql-icon">🔗</span>
-    <span class="ql-label">LinkedIn</span>
-  </a>
-  <a href="https://github.com/ssilwal050" class="quick-link-card">
-    <span class="ql-icon">💻</span>
-    <span class="ql-label">GitHub</span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=RZAbmdMAAAAJ" class="quick-link-card">
-    <span class="ql-icon">📖</span>
-    <span class="ql-label">Google Scholar</span>
-  </a>
-</div>
-
----
-
 ## Contact
 
 I am interested in research collaborations in **Bayesian statistics**, **categorical data analysis**, **missing data methods**, and **applied statistical modeling**. Please feel free to contact me at **suwashs@mtu.edu**.
+
+<p style="margin-top: 1.2em;">
+  <a href="/files/Suwash_Silwal_CV.pdf" target="_blank" class="btn btn--primary">Download CV</a>
+</p>
