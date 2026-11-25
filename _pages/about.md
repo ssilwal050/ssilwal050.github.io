@@ -91,6 +91,7 @@ My research interests include **Bayesian computation**, **causal inference**, **
 ## Research Interests
 
 - **Bayesian Computation for Latent Variable Models**
+- **Causal Inference**
 - **MCMC Methods and Parameter Expansion**
 - **Missing Data Imputation**
 - **Multinomial Probit and Categorical Data Models**
