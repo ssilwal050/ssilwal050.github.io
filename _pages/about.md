@@ -129,7 +129,8 @@ Taught Survey Statistics, Demography, Biostatistics, and Research Methodology; s
 
 ## Selected Publications
 
-- **Silwal, S., & Zhang, X.** (2026). *Parameter-Expanded Data Augmentation for Analyzing Discrete Nominal Measures with Missing Values Using Multinomial Probit Models.
+{% assign mnp_publication = site.publications | where: "url", "/publication/2026-mnp-missing-values" | first %}
+- **Silwal, S., & Zhang, X.** ({{ mnp_publication.date | date: "%Y" }}). <em><a href="{{ mnp_publication.url | relative_url }}">{{ mnp_publication.title | escape }}</a></em>.
 
 - **Silwal, S., & Uprety, P.** (2019). *Assessment of Oral Health Knowledge, Attitude and Practice Among School Children in Kathmandu Metropolitan City, Nepal.* *RRJoST, 8*, 1–10.
 
@@ -151,7 +152,7 @@ For a full list, please see my [Publications page](/publications/).
   <div class="news-card">
     <div class="news-icon">📝</div>
     <div class="news-text">
-      <strong>May 2026:</strong> Published <strong>"Parameter-Expanded Data Augmentation for Analyzing Discrete Nominal Measures with Missing Values Using Multinomial Probit Models."</strong>
+      <strong>May 2026:</strong> Published <strong>“{{ mnp_publication.title | escape }}”</strong>.
     </div>
   </div>
 
