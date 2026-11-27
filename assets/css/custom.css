@@ -561,7 +561,7 @@ html:not([data-theme="dark"]) {
   color-scheme: light;
   --light-background: #edf6ee;
   --light-surface: #f8fcf8;
-  --light-text: #080b09;
+  --light-text: #000;
   --light-accent: #16578e;
   --light-action: #1f634b;
   --light-border: #b7d0c4;
@@ -629,4 +629,8 @@ html:not([data-theme="dark"]) #main :is(
   .pub-authors, .pub-venue, .pub-stat-l, .tl-body, label, input, textarea
 ) {
   color: var(--light-text);
+}
+
+html:not([data-theme="dark"]) :is(.page__content, .archive__item-excerpt) {
+  font-weight: 500;
 }
