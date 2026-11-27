@@ -422,6 +422,35 @@
   }
 }
 
+/* Academic reading typography */
+:root {
+  --reading-font: "STIX Two Text", "Source Serif 4", Georgia, serif;
+}
+
+.page__content,
+.page__content p,
+.page__content blockquote,
+.archive__item-excerpt {
+  font-family: var(--reading-font);
+}
+
+.page__content {
+  font-size: clamp(1.0625rem, 1rem + 0.35vw, 1.1875rem);
+  line-height: 1.55;
+}
+
+.page__content p {
+  font-size: 1em;
+}
+
+#main :is(.page__title, .archive__item-title, .page__content h1, .page__content h2, .page__content h3) {
+  font-family: var(--reading-font);
+}
+
+.page__content .opening-quote .opening-quote__text {
+  font-family: var(--reading-font);
+}
+
 /* Site theme */
 .masthead__menu {
   display: flex;
@@ -530,13 +559,13 @@ html[data-theme="dark"] a:focus-visible {
 /* Light palette */
 html:not([data-theme="dark"]) {
   color-scheme: light;
-  --light-background: #ffffff;
-  --light-surface: #f0f7f4;
+  --light-background: #edf6ee;
+  --light-surface: #f8fcf8;
   --light-text: #17211d;
   --light-accent: #16578e;
   --light-action: #1f634b;
   --light-border: #b7d0c4;
-  --light-footer: #184739;
+  --light-footer: #153752;
   background-color: var(--light-background);
 }
 
