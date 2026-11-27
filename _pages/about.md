@@ -193,6 +193,4 @@ For a full list, please see my [Publications page](/publications/).
 
 ## Contact
 
-I am interested in research collaborations in **Bayesian statistics**, **categorical data analysis**, **missing data methods**, and **applied statistical modeling**. Please feel free to contact me at **suwashs@mtu.edu**.
-
 {% include contact-form.html %}

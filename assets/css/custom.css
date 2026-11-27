@@ -511,3 +511,18 @@ html[data-theme="dark"] .pub-badge {
   background: var(--theme-background);
   color: var(--theme-text);
 }
+
+/* Keep text readable even where a page supplies its own light-mode colors. */
+html[data-theme="dark"] :is(.masthead, #main, .page__footer),
+html[data-theme="dark"] :is(.masthead, #main, .page__footer) * {
+  color: var(--theme-text) !important;
+}
+
+html[data-theme="dark"] :is(.btn--primary, .quick-links a, .publication-badge, .page__content a[href*="dl.acm"]) {
+  background-color: #225579;
+}
+
+html[data-theme="dark"] a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
