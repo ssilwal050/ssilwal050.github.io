@@ -77,13 +77,13 @@ redirect_from:
 
 ## About Me
 
-I’m a statistician with a Ph.D. in Statistics from Michigan Technological University, where I worked with Prof. Xiao Zhang in the Department of Mathematical Sciences.
+I’m a statistician with a **Ph.D. in Statistics** from Michigan Technological University, where I worked with Prof. Xiao Zhang in the Department of Mathematical Sciences.
 
-My doctoral research focused on Markov chain Monte Carlo (MCMC) methods and the multinomial probit model. I developed parameter-expanded data augmentation methods for binary, ordinal, and nominal outcomes with missing data. I presented this work at JSM in 2024 and 2025 and at SDSS in 2024. In spring 2026, I received Michigan Tech’s Dean’s Award for Outstanding Scholarship.
+My doctoral research focused on Markov chain Monte Carlo (MCMC) methods and the multinomial probit model. I developed **parameter-expanded data augmentation methods for binary, ordinal, and nominal outcomes with missing data**. I presented this work at **JSM in 2024 and 2025** and at **SDSS in 2024**. In spring 2026, I received Michigan Tech’s **Dean’s Award for Outstanding Scholarship**.
 
-Before graduate school, I worked as a data analyst and statistician on large-scale surveys and policy projects supported by the World Bank, NORC, and international partners. That experience shapes how I approach research: I value methods that are rigorous and useful for understanding real-world questions.
+Before graduate school, I worked as a data analyst and statistician on **large-scale surveys and policy projects supported by the World Bank, NORC, and international partners**. That experience shapes how I approach research: I value methods that are rigorous and useful for understanding real-world questions.
 
-Teaching is another important part of my work. At Michigan Tech, I taught Engineering Statistics and Pre-calculus, led R and MATLAB labs, and created course materials including exams, problem sets, and auto-graded quizzes. At Amrit Campus, Tribhuvan University in Nepal, I taught Survey Statistics, Demography, Biostatistics, and Research Methodology and mentored undergraduate capstone projects.
+Teaching is another important part of my work. At Michigan Tech, I taught Engineering Statistics and Pre-calculus, led R and MATLAB labs, and created course materials including exams, problem sets, and auto-graded quizzes. At Amrit Campus, Tribhuvan University in Nepal, I taught Survey Statistics, Demography, Biostatistics, and Research Methodology and **mentored undergraduate capstone projects**.
 
 Across my research and applied work, I’m especially interested in Bayesian computation, causal inference, methods for missing data, and analysis of multivariate and longitudinal data.
 
