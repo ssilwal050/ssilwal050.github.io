@@ -561,7 +561,7 @@ html:not([data-theme="dark"]) {
   color-scheme: light;
   --light-background: #edf6ee;
   --light-surface: #f8fcf8;
-  --light-text: #17211d;
+  --light-text: #080b09;
   --light-accent: #16578e;
   --light-action: #1f634b;
   --light-border: #b7d0c4;
@@ -615,4 +615,18 @@ html:not([data-theme="dark"]) .page__footer :is(a, i) {
 
 html[data-theme="dark"] .greedy-nav .visible-links a::before {
   background-color: var(--theme-link);
+}
+
+/* Use the light palette for reading text and restore native font smoothing. */
+html:not([data-theme="dark"]) body {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
+
+html:not([data-theme="dark"]) #main :is(
+  .page__content, .page__content p, .page__content strong, .page__content blockquote,
+  .archive__item-excerpt, .author__name, .author__bio, .page__meta,
+  .pub-authors, .pub-venue, .pub-stat-l, .tl-body, label, input, textarea
+) {
+  color: var(--light-text);
 }
