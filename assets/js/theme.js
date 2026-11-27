@@ -20,13 +20,25 @@
   applyTheme();
   system.addEventListener("change", applyTheme);
   document.addEventListener("DOMContentLoaded", () => {
-    const picker = document.getElementById("site-theme");
-    if (!picker) return;
-    picker.value = mode;
-    picker.parentElement.hidden = false;
-    picker.addEventListener("change", () => {
-      mode = picker.value;
+    const toggle = document.getElementById("site-theme");
+    if (!toggle) return;
+    const icon = toggle.querySelector("i");
+    const icons = { system: "fa-desktop", light: "fa-sun", dark: "fa-moon" };
+    const nextMode = () => modes[(modes.indexOf(mode) + 1) % modes.length];
+
+    function updateToggle() {
+      icon.className = "fas " + icons[mode];
+      const label = "Color theme: " + mode + ". Switch to " + nextMode();
+      toggle.setAttribute("aria-label", label);
+      toggle.title = label;
+    }
+
+    updateToggle();
+    toggle.hidden = false;
+    toggle.addEventListener("click", () => {
+      mode = nextMode();
       applyTheme();
+      updateToggle();
       try {
         localStorage.setItem(storageKey, mode);
       } catch {
