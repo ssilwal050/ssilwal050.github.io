@@ -450,11 +450,11 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --theme-background: #252a34;
-  --theme-surface: #1f242c;
+  --theme-background: #11151b;
+  --theme-surface: #1b232c;
   --theme-text: #ffffff;
   --theme-muted: #bac5d2;
-  --theme-link: #8cd2d5;
+  --theme-link: #a9d7ff;
   --theme-border: #51555d;
   background: var(--theme-background);
   color: var(--theme-text);
@@ -519,7 +519,7 @@ html[data-theme="dark"] :is(.masthead, #main, .page__footer) * {
 }
 
 html[data-theme="dark"] :is(.btn--primary, .quick-links a, .publication-badge, .page__content a[href*="dl.acm"]) {
-  background-color: #006b71;
+  background-color: #1b614b;
 }
 
 html[data-theme="dark"] a:focus-visible {
@@ -527,54 +527,63 @@ html[data-theme="dark"] a:focus-visible {
   outline-offset: 3px;
 }
 
-/* Minimal Mistakes Sunrise palette, adapted to the AcademicPages layout. */
+/* Light palette */
 html:not([data-theme="dark"]) {
   color-scheme: light;
-  --sunrise-background: #e8d5b7;
-  --sunrise-surface: #f0e2cd;
-  --sunrise-text: #0e2431;
-  --sunrise-accent: #a51e38;
-  --sunrise-border: #b9aa92;
-  --sunrise-footer: #f9b248;
-  background-color: var(--sunrise-background);
+  --light-background: #ffffff;
+  --light-surface: #f0f7f4;
+  --light-text: #17211d;
+  --light-accent: #16578e;
+  --light-action: #1f634b;
+  --light-border: #b7d0c4;
+  --light-footer: #184739;
+  background-color: var(--light-background);
 }
 
 html:not([data-theme="dark"]) :is(body, .masthead, .greedy-nav) {
-  background-color: var(--sunrise-background);
-  color: var(--sunrise-text);
-  border-color: var(--sunrise-border);
+  background-color: var(--light-background);
+  color: var(--light-text);
+  border-color: var(--light-border);
 }
 
-html:not([data-theme="dark"]) :is(.page__footer, .page__footer i) {
-  background-color: var(--sunrise-footer);
-  color: var(--sunrise-text);
-  border-color: var(--sunrise-border);
+html:not([data-theme="dark"]) .page__footer {
+  background-color: var(--light-footer);
+  color: #fff;
+  border-color: var(--light-border);
 }
 
 html:not([data-theme="dark"]) :is(.news-card, .archive__item, .pub-card, .pub-stat,
   .pub-scholar-bar, .tl-item, .greedy-nav .hidden-links, .author__urls,
   input, textarea, select, pre, .highlighter-rouge) {
-  background: var(--sunrise-surface);
-  border-color: var(--sunrise-border);
+  background: var(--light-surface);
+  border-color: var(--light-border);
 }
 
 html:not([data-theme="dark"]) :is(.page__content a:not(.btn), .pub-title a, .archive__item-title a) {
-  color: var(--sunrise-accent);
+  color: var(--light-accent);
 }
 
 html:not([data-theme="dark"]) :is(.opening-quote__text, .opening-quote__author, .page__title, .page__content h2) {
-  color: var(--sunrise-text);
+  color: var(--light-text);
 }
 
 html:not([data-theme="dark"]) :is(.btn--primary, .quick-links a, .page__content a[href*="dl.acm"], .greedy-nav button) {
-  background-color: var(--sunrise-accent);
+  background-color: var(--light-action);
   color: #fff;
 }
 
 html:not([data-theme="dark"]) .greedy-nav .visible-links a::before {
-  background-color: #fc3a52;
+  background-color: var(--light-action);
 }
 
 html[data-theme="dark"] .page__footer {
-  background-color: #1a1d24;
+  background-color: #0c1117;
+}
+
+html:not([data-theme="dark"]) .page__footer :is(a, i) {
+  color: inherit;
+}
+
+html[data-theme="dark"] .greedy-nav .visible-links a::before {
+  background-color: var(--theme-link);
 }
