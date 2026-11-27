@@ -1,0 +1,55 @@
+{% if site.author.email %}
+<form id="contact-form" data-recipient="{{ site.author.email | escape }}" aria-describedby="contact-help">
+  <label for="contact-name">Name</label>
+  <input id="contact-name" name="name" type="text" autocomplete="name" required>
+
+  <label for="contact-email">Email</label>
+  <input id="contact-email" name="email" type="email" autocomplete="email" required>
+
+  <label for="contact-message">Message</label>
+  <textarea id="contact-message" name="message" rows="4" required></textarea>
+
+  <button type="submit" class="btn btn--primary" disabled>Open email draft</button>
+  <p id="contact-help">Your email app opens with the message filled in. Send it from there.</p>
+</form>
+<noscript><p><a href="mailto:{{ site.author.email | escape }}">Email me directly</a></p></noscript>
+
+<style>
+  #contact-form {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 32rem;
+    margin: 1.25rem 0 1.5rem;
+    padding: 0;
+    background: transparent;
+    text-align: left;
+  }
+
+  #contact-form input,
+  #contact-form textarea {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  #contact-help {
+    margin: 0;
+    font-size: 0.85em;
+  }
+</style>
+<script>
+  (() => {
+    const form = document.getElementById("contact-form");
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const fields = new FormData(form);
+      const subject = encodeURIComponent("Website contact");
+      const body = encodeURIComponent(
+        "Name: " + fields.get("name") + "\r\nEmail: " + fields.get("email") +
+        "\r\n\r\n" + fields.get("message").replace(/\r?\n/g, "\r\n")
+      );
+      window.location.href = "mailto:" + form.dataset.recipient + "?subject=" + subject + "&body=" + body;
+    });
+    form.querySelector("button").disabled = false;
+  })();
+</script>
+{% endif %}

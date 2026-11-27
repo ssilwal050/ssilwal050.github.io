@@ -195,6 +195,4 @@ For a full list, please see my [Publications page](/publications/).
 
 I am interested in research collaborations in **Bayesian statistics**, **categorical data analysis**, **missing data methods**, and **applied statistical modeling**. Please feel free to contact me at **suwashs@mtu.edu**.
 
-<p style="margin-top: 1.2em;">
-  <a href="/files/Suwash_Silwal_CV.pdf" target="_blank" class="btn btn--primary">Download CV</a>
-</p>
+{% include contact-form.html %}
