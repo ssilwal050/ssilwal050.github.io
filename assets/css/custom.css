@@ -501,7 +501,7 @@ html[data-theme="dark"] a:not(.btn) {
   color: var(--theme-link);
 }
 
-html[data-theme="dark"] :is(.page__footer, .greedy-nav .hidden-links, .author__urls, .news-card,
+html[data-theme="dark"] :is(.page__footer, .greedy-nav .hidden-links, .news-card,
   .publication-item, .publication-card, .news-content, .stat-item, .contact-info,
   .archive__item, .pub-card, .pub-stat, .pub-scholar-bar, .tl-item, .pub-badge,
   input, textarea, select, pre, .highlighter-rouge) {
@@ -582,7 +582,7 @@ html:not([data-theme="dark"]) .page__footer {
 }
 
 html:not([data-theme="dark"]) :is(.news-card, .archive__item, .pub-card, .pub-stat,
-  .pub-scholar-bar, .tl-item, .greedy-nav .hidden-links, .author__urls,
+  .pub-scholar-bar, .tl-item, .greedy-nav .hidden-links,
   input, textarea, select, pre, .highlighter-rouge) {
   background: var(--light-surface);
   border-color: var(--light-border);
@@ -633,4 +633,55 @@ html:not([data-theme="dark"]) #main :is(
 
 html:not([data-theme="dark"]) :is(.page__content, .archive__item-excerpt) {
   font-weight: 500;
+}
+
+/* Match the sidebar links and mobile Follow menu to the page palette. */
+html:not([data-theme="dark"]) {
+  --follow-background: var(--light-background);
+  --follow-border: var(--light-border);
+  --follow-orcid: #507400;
+  --follow-linkedin: #0a66c2;
+  --follow-scholar: #245bb3;
+  --follow-github: #24292f;
+}
+
+html[data-theme="dark"] {
+  --follow-background: var(--theme-background);
+  --follow-border: var(--theme-border);
+  --follow-orcid: #a6ce39;
+  --follow-linkedin: #71b7ff;
+  --follow-scholar: #8bb8ff;
+  --follow-github: #fff;
+}
+
+#main .author__urls,
+#main .author__urls-wrapper > .btn--inverse {
+  background: var(--follow-background);
+  border-color: var(--follow-border);
+  color: inherit;
+}
+
+#main .author__urls::before {
+  border-bottom-color: var(--follow-border);
+}
+
+#main .author__urls::after {
+  border-bottom-color: var(--follow-background);
+}
+
+/* Override the dark-mode text rule for the sidebar's brand icons. */
+#main .author__urls i.ai-orcid-square {
+  color: var(--follow-orcid) !important;
+}
+
+#main .author__urls i.fa-linkedin {
+  color: var(--follow-linkedin) !important;
+}
+
+#main .author__urls i.fa-graduation-cap {
+  color: var(--follow-scholar) !important;
+}
+
+#main .author__urls i.fa-github {
+  color: var(--follow-github) !important;
 }
