@@ -685,3 +685,8 @@ html[data-theme="dark"] {
 #main .author__urls i.fa-github {
   color: var(--follow-github) !important;
 }
+
+/* Keep About Me emphasis in the light palette's navy. */
+html:not([data-theme="dark"]) .page__content #about-me ~ p:not(#research-interests ~ p) strong {
+  color: var(--light-footer);
+}
