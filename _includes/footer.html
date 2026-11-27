@@ -1,5 +1,64 @@
 {% include base_path %}
 
+{% if site.author.email %}
+<section aria-labelledby="footer-contact-title">
+  <h2 id="footer-contact-title">Contact me</h2>
+  <form id="footer-contact-form" data-recipient="{{ site.author.email | escape }}" aria-describedby="footer-contact-help">
+    <label for="footer-contact-name">Name</label>
+    <input id="footer-contact-name" name="name" type="text" autocomplete="name" required>
+
+    <label for="footer-contact-email">Email</label>
+    <input id="footer-contact-email" name="email" type="email" autocomplete="email" required>
+
+    <label for="footer-contact-message">Message</label>
+    <textarea id="footer-contact-message" name="message" rows="4" required></textarea>
+
+    <button type="submit" class="btn btn--primary" disabled>Open email draft</button>
+    <p id="footer-contact-help">Your email app opens with the message filled in. Send it from there.</p>
+  </form>
+  <noscript><p><a href="mailto:{{ site.author.email | escape }}">Email me directly</a></p></noscript>
+</section>
+
+<style>
+  #footer-contact-form {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 32rem;
+    margin: 0 auto 1.5rem;
+    padding: 0;
+    background: transparent;
+    text-align: left;
+  }
+
+  #footer-contact-form input,
+  #footer-contact-form textarea {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  #footer-contact-help {
+    margin: 0;
+    font-size: 0.85em;
+  }
+</style>
+<script>
+  (() => {
+    const form = document.getElementById("footer-contact-form");
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const fields = new FormData(form);
+      const subject = encodeURIComponent("Website contact");
+      const body = encodeURIComponent(
+        "Name: " + fields.get("name") + "\r\nEmail: " + fields.get("email") +
+        "\r\n\r\n" + fields.get("message").replace(/\r?\n/g, "\r\n")
+      );
+      window.location.href = "mailto:" + form.dataset.recipient + "?subject=" + subject + "&body=" + body;
+    });
+    form.querySelector("button").disabled = false;
+  })();
+</script>
+{% endif %}
+
 <div class="page__footer-follow">
   <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
