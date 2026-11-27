@@ -93,9 +93,7 @@ Across my research and applied work, I’m especially interested in Bayesian com
 
 - **Bayesian Computation for Latent Variable Models**
 - **Causal Inference**
-- **MCMC Methods and Parameter Expansion**
 - **Missing Data Imputation**
-- **Multinomial Probit and Categorical Data Models**
 - **Multivariate and Longitudinal Data Analysis**
 - **Applied Survey Statistics and Biostatistics**
 
