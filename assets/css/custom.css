@@ -474,6 +474,7 @@ html[data-theme="dark"] a:not(.btn) {
 
 html[data-theme="dark"] :is(.page__footer, .greedy-nav .hidden-links, .author__urls, .news-card,
   .publication-item, .publication-card, .news-content, .stat-item, .contact-info,
+  .archive__item, .pub-card, .pub-stat, .pub-scholar-bar, .tl-item, .pub-badge,
   input, textarea, select, pre, .highlighter-rouge) {
   background: var(--theme-surface);
   color: var(--theme-text);
@@ -490,6 +491,23 @@ html[data-theme="dark"] :is(hr, th, td, h2, .archive__subtitle) {
   border-color: var(--theme-border);
 }
 
-html[data-theme="dark"] .page__content :is(h1, h2, h3, h4, h5, h6) {
+html[data-theme="dark"] :is(.page__title, .page__content :is(h1, h2, h3, h4, h5, h6, strong),
+  .pub-stat-n, .pub-stat-l, .pub-section-title, .pub-authors, .pub-venue, .tl-title, .tl-body,
+  .stat-number, .stat-label, label, legend) {
+  color: var(--theme-text);
+}
+
+html[data-theme="dark"] :is(.greedy-nav a, .author__urls a, .page__footer a) {
+  color: var(--theme-text);
+}
+
+html[data-theme="dark"] :is(.pub-link, .pub-link:hover) {
+  background: transparent;
+  color: var(--theme-link);
+  border-color: currentColor;
+}
+
+html[data-theme="dark"] .pub-badge {
+  background: var(--theme-background);
   color: var(--theme-text);
 }
