@@ -88,8 +88,7 @@ author:
   avatar           : "prof_pic.jpg"
   bio              : "PhD in Statistics | Bayesian Modeling, Missing Data, Causal Inference"
   location         : "Houghton, MI"
-  employer         : "Michigan Technological
-                     University"
+  employer         :
   googlescholar    : "https://scholar.google.com/citations?user=RZAbmdMAAAAJ"
   email            : "suwashs@mtu.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
