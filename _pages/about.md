@@ -76,15 +76,16 @@ redirect_from:
 </style>
 
 ## About Me
-I'm a statistician with a **Ph.D. in Statistics** from **Michigan Technological University**, where I trained in the Department of Mathematical Sciences under [Prof. Xiao Zhang](https://www.mtu.edu/math/department/faculty-staff/faculty/x-zhang/). My research centers on **Bayesian modeling for discrete and categorical data**, particularly **MCMC methods**, **missing data**, and the **Multinomial Probit Model (MNP)**.
 
-My doctoral work developed **parameter-expanded data-augmentation methods** for binary, ordinal, and nominal outcomes with missing values. This research was presented at leading statistical conferences including **JSM 2024**, **JSM 2025**, and **SDSS 2024**. I was also honored with the **Dean's Award for Outstanding Scholarship (Spring 2026)** at Michigan Tech.
+I’m a statistician with a Ph.D. in Statistics from Michigan Technological University, where I worked with Prof. Xiao Zhang in the Department of Mathematical Sciences.
 
-Before starting my doctoral studies, I worked as a **data analyst and statistician** on large-scale survey and policy-oriented projects supported by organizations such as the **World Bank**, **NORC**, and other international partners. My work combines methodological research with applied statistics, survey analysis, and real-world problem solving.
+My doctoral research focused on Markov chain Monte Carlo (MCMC) methods and the multinomial probit model. I developed parameter-expanded data augmentation methods for binary, ordinal, and nominal outcomes with missing data. I presented this work at JSM in 2024 and 2025 and at SDSS in 2024. In spring 2026, I received Michigan Tech’s Dean’s Award for Outstanding Scholarship.
 
-I also love teaching. At **Michigan Tech**, I taught **Engineering Statistics** and **Pre-calculus**, designed exams, problem sets, and auto-graded quizzes, and led **R and MATLAB** computational labs. Earlier, at **Amrit Campus (Tribhuvan University)** in Nepal, I taught **Survey Statistics**, **Demography**, **Biostatistics**, and **Research Methodology**, and mentored undergraduate capstone projects.
+Before graduate school, I worked as a data analyst and statistician on large-scale surveys and policy projects supported by the World Bank, NORC, and international partners. That experience shapes how I approach research: I value methods that are rigorous and useful for understanding real-world questions.
 
-My research interests include **Bayesian computation**, **causal inference**, **missing data imputation and methodology**, and **multivariate and longitudinal data analysis**.
+Teaching is another important part of my work. At Michigan Tech, I taught Engineering Statistics and Pre-calculus, led R and MATLAB labs, and created course materials including exams, problem sets, and auto-graded quizzes. At Amrit Campus, Tribhuvan University in Nepal, I taught Survey Statistics, Demography, Biostatistics, and Research Methodology and mentored undergraduate capstone projects.
+
+Across my research and applied work, I’m especially interested in Bayesian computation, causal inference, methods for missing data, and analysis of multivariate and longitudinal data.
 
 ---
 
